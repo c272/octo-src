@@ -35,7 +35,7 @@
               </button>
               
               <a class="navbar-brand" href="index.html">
-                <img id="logo" class="svg" src="octo_logo.png" alt="">
+                <img id="logo" class="svg" src="images/octo_logo_small.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -74,10 +74,38 @@
 
 <p>To learn how to quickly start up an Octo project, please refer to the <a href="">Quick Start Guide</a>.
 Or, follow the steps below.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
-<ol>
-<li>Add images to <em>images</em> folder if the file is referencing an image.</li>
-</ol>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="configuring-the-server">Configuring the Server</h3>
+<p>First, you must create a new text file in the server directory named &quot;_config.octo&quot;. Then, in this file, you can specify the properties you wish to use, if they are different from the default values. You can read about the default values and config properties in Octo <a href="https://github.com/c272/octo/wiki/Configuration-Options-for-Octo-Server">here.</a>
+Here is an extremely simple example config file.</p>
+<p><em>Note: A config file must exist for the server to run, even if it is blank.</em></p>
+<pre><code>server_ip=127.0.0.1
+server_port=13000
+</code></pre><p>Once you have created this config file, you can then start the server. When starting it up for the first time, please change the default user account from &quot;admin&quot;.
+Further configuration of individual projects is all done client-side. Logging in with the default user will allow you to change most of these settings.</p>
+<h3 id="using-the-gui-client">Using the GUI Client</h3>
+<p>The GUI client currently does not exist.</p>
+<h3 id="using-the-client-api">Using the Client API</h3>
+<p>The client API is made up of three main components:</p>
+<ul>
+<li>The Project Manager (octoProjectManager)</li>
+<li>The Authentication Service (octoAuthService)</li>
+<li>The Client Hook</li>
+</ul>
+<p>When attempting to connect to a server, use the authentication service to connect to the address, like in the example below.</p>
+<pre><code>var myClient = new OctoClient(&quot;myepicwebsite.com&quot;, 6920);
+bool success = myClient.Login(&quot;Jimmy_Neutron&quot;, &quot;jimmyneutron123&quot;);
+</code></pre><p>you can then use the Project Manager to create and destroy projects, push and pull projects, and add or change permission for users.
+This is done like so:</p>
+<pre><code>//Create a project.
+myClient.octoProjects.CreateProject(&quot;ProjectName&quot;);
+
+//Set user permissions for a project.
+myClient.octoProjects.SetUserPermissions(&quot;ProjectName&quot;, &quot;someUser&quot;, UserPermissions.FULL_PERMISSION);
+
+//Delete a project.
+myClient.octoProjects.DeleteProject(&quot;ProjectName&quot;);
+</code></pre><p>You can also access the user&#39;s raw token (if required for some purpose) by using <code>myClient.GetEncryptedToken()</code>.</p>
 </article>
           </div>
           

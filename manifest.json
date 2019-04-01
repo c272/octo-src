@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "5qiJ21L3eFyR/YHnMGXRow=="
+          "hash": "KH/p5Mhkcv6UGvHO//E+PQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "CSAcHa3oYDMomhMY/XlfqQ=="
+          "hash": "XKfPwUAD6/AeujjE4sfVdg=="
         }
       },
       "is_incremental": false,
@@ -49,12 +49,45 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/Thumbs.db",
+      "output": {
+        "resource": {
+          "relative_path": "images/Thumbs.db"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/octo_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/octo_logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/octo_logo_small.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/octo_logo_small.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "dpEfbkSC5tr0/7qvvjGOyw=="
+          "hash": "lswA+yWTeAf8SW+zHTAFGg=="
         }
       },
       "is_incremental": false,
@@ -66,7 +99,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.ClientInfo.html",
-          "hash": "OV/ebBbPvY+dnaJ1Uv1MHg=="
+          "hash": "SbvCfnpKR73QsojXy3PLrA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +111,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.NetworkStream-1.html",
-          "hash": "X8+7l8Hc0JoFeIeC+yReyw=="
+          "hash": "sqFZhcudwA7cEm3OfyUc3g=="
         }
       },
       "is_incremental": false,
@@ -90,7 +123,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.OctoClient.html",
-          "hash": "6H6eTbhsvv8qzluLlEhdCw=="
+          "hash": "tQyTxLB1h8Wh2iYlilOkWA=="
         }
       },
       "is_incremental": false,
@@ -102,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.ProjectManager.html",
-          "hash": "rOJOZN7FeZmflyXx842AFw=="
+          "hash": "2b01OSqJoOVZjcZ5ZbwuFQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.html",
-          "hash": "dCHxTlrF1wNXPGoyu2eZkA=="
+          "hash": "vW2ef9Yiam0BEhCPaoaX4g=="
         }
       },
       "is_incremental": false,
@@ -138,7 +171,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.CollectionDiff.html",
-          "hash": "dnxXdlPbtCn6dHF4iHkgOw=="
+          "hash": "C9LY1U8qheVONM89IlrZ1A=="
         }
       },
       "is_incremental": false,
@@ -150,7 +183,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Config.html",
-          "hash": "x0tRWWC1Yi03AmkRyKG5Ng=="
+          "hash": "O5x6ITRVfPW3EdH7wHgD3w=="
         }
       },
       "is_incremental": false,
@@ -162,7 +195,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.DiffGenerator.html",
-          "hash": "RaLKk9QwD15J6Z0q4fr8tQ=="
+          "hash": "ixdfS3E8CFWhrGidiom7+Q=="
         }
       },
       "is_incremental": false,
@@ -174,7 +207,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.DirectoryCollection.html",
-          "hash": "n/V4SwN105UUytj5oiYZ2A=="
+          "hash": "DyvDqVxZwj5uurbzXRdpkg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +219,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.DirectoryNode.html",
-          "hash": "L7+gau8EaH8HBEdVMBfxag=="
+          "hash": "mggA88G9pmAhme62eBZe3Q=="
         }
       },
       "is_incremental": false,
@@ -198,7 +231,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.FolderZipManager.html",
-          "hash": "mdRBjxaTyMmCs9V7Mmhk9Q=="
+          "hash": "AwQHVMEp+gjAqgvjfTaLGg=="
         }
       },
       "is_incremental": false,
@@ -210,7 +243,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.IOctoAuth.html",
-          "hash": "e8bl+eiLXB+0nHPrQNrBNw=="
+          "hash": "YAI71vOKx+f7GywaiYhEsA=="
         }
       },
       "is_incremental": false,
@@ -222,7 +255,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.IOctoProjects.html",
-          "hash": "z8USLvKx3Ym5dzKtMI89Vg=="
+          "hash": "Y9DOdXKovRVwkqqYvv7K2A=="
         }
       },
       "is_incremental": false,
@@ -234,7 +267,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.IOctoService.html",
-          "hash": "NifsAtNKrNg149Qsrz9vmQ=="
+          "hash": "sXWxr1Hx6obfkOqV9GcZQw=="
         }
       },
       "is_incremental": false,
@@ -246,7 +279,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.IOctoStorage.html",
-          "hash": "6BLpEQfJ4Cxt7PK6C+k4VQ=="
+          "hash": "pvBkoCJnBX/fPIn+RdlIgw=="
         }
       },
       "is_incremental": false,
@@ -258,7 +291,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Manifest.html",
-          "hash": "2HGruCEZzn68UgLvkQvlQw=="
+          "hash": "ewEgzdEiQS+xGk211ZIwNA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +303,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Project.html",
-          "hash": "sDCIKDF86us3/Ms7pB1/zQ=="
+          "hash": "zRh9qjHbtauZLyIJcnEfcA=="
         }
       },
       "is_incremental": false,
@@ -282,7 +315,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.ProjectPermissions.html",
-          "hash": "9sTododqPLTkzfZt/cGvdg=="
+          "hash": "Xs+jXuAHbpGzO1KLgMOy2A=="
         }
       },
       "is_incremental": false,
@@ -294,7 +327,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Repository.html",
-          "hash": "Kx9alj1fd0SQ0O0L9oNanw=="
+          "hash": "PvjWl1y7ntHIqivwgJaLLw=="
         }
       },
       "is_incremental": false,
@@ -306,7 +339,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.UserPermissions.html",
-          "hash": "wFpgdO1XDg1K6xe3oDO/qQ=="
+          "hash": "qGEXPKIbKZLAAfR2H0s9Fw=="
         }
       },
       "is_incremental": false,
@@ -318,7 +351,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Utils.html",
-          "hash": "Hj0mKO6OzlxeCaXEEMdtAA=="
+          "hash": "Dm2eJ9bhxaXrSCzECc/LIg=="
         }
       },
       "is_incremental": false,
@@ -330,7 +363,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Vault.html",
-          "hash": "wuIfuihCou6kefxM358GDg=="
+          "hash": "A+3D6fgfChOjlbOg01me4A=="
         }
       },
       "is_incremental": false,
@@ -342,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.html",
-          "hash": "QOouDm6YyyOPmfavwU8Y3A=="
+          "hash": "3hwN+VLJ1pBBt0msk64F+A=="
         }
       },
       "is_incremental": false,
@@ -366,7 +399,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Constants.html",
-          "hash": "SEZGsx5/Ktch18gr9tH5lg=="
+          "hash": "daWdRGCva6RlGgyfcQr9cQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +411,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Error.html",
-          "hash": "rDPFlm1EmRkjHqHaInp8cw=="
+          "hash": "aS+/eo8Iw2SyNY9BCl8NLQ=="
         }
       },
       "is_incremental": false,
@@ -390,7 +423,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.OctoProjects.html",
-          "hash": "qeOT0R1Zp4TYEB+n4M+vTA=="
+          "hash": "yV4RtWFi02dgwJ3iIM4j9w=="
         }
       },
       "is_incremental": false,
@@ -402,7 +435,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.OctoService.html",
-          "hash": "sSi4Iwi2VI62USJySiERjg=="
+          "hash": "3BE+2Wpl2arnBsvJitFE1Q=="
         }
       },
       "is_incremental": false,
@@ -414,7 +447,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.OctoStorage.html",
-          "hash": "eC6kM1VdikReM0rhWYM+NA=="
+          "hash": "0V1OQk/MiEhB994JL0LVeg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +459,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Permissions.html",
-          "hash": "5nKb2bonc0Slb9SrxPoSqw=="
+          "hash": "K9NmSBtgosz913n252F72g=="
         }
       },
       "is_incremental": false,
@@ -438,7 +471,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Serialize.html",
-          "hash": "o6X9hemPBeXb4WSbIwoQFA=="
+          "hash": "sLEkVxP01tm3Yl1S6COKxA=="
         }
       },
       "is_incremental": false,
@@ -450,7 +483,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Server.html",
-          "hash": "Jgx8XDuH5k6ayHUJg8Xk/A=="
+          "hash": "k5nN3Plcld4XAD2B5EHX2g=="
         }
       },
       "is_incremental": false,
@@ -462,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.User.html",
-          "hash": "I1QBPerjwrvfu6D0eJyXVg=="
+          "hash": "e6/O1G4nvm1LOl+MQQWymw=="
         }
       },
       "is_incremental": false,
@@ -474,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.html",
-          "hash": "D8KZkVPPLjK8fUm4I4v0Eg=="
+          "hash": "roKSV71EIPSbsWC8n4EH3A=="
         }
       },
       "is_incremental": false,
@@ -508,14 +541,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -523,17 +561,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 33,
-          "skipped_file_count": 0
+          "skipped_file_count": 33
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 2
         }
       }
     },
