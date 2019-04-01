@@ -1,0 +1,546 @@
+{
+  "homepages": [],
+  "source_base_path": "Z:/VSProjects/octo/Octo-Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "rCy8kPb9xflhk39L0Q6Zhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "SeHmF3rca0lyC5IE/h18Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "DQFk57QFQF6tVZUFfA610A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-client/Octo_Client.ClientInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/Octo_Client.ClientInfo.html",
+          "hash": "vlpwfsDy30vn6awg4AaWOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-client/Octo_Client.NetworkStream-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/Octo_Client.NetworkStream-1.html",
+          "hash": "GRTfoNcTdcAI9cVSP+tdLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-client/Octo_Client.OctoClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/Octo_Client.OctoClient.html",
+          "hash": "ID8b8aN7aVRFISFTgBuvmg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-client/Octo_Client.ProjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/Octo_Client.ProjectManager.html",
+          "hash": "k/hbpBp2bL8zioy2kdSh3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-client/Octo_Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/Octo_Client.html",
+          "hash": "96XkI4fcn25lw7ppf++HEA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api-client/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-client/toc.html",
+          "hash": "i5nFZymRWGzWMjqxMQlLGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.CollectionDiff.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.CollectionDiff.html",
+          "hash": "LxiuY1iN/0WZ22AFlfuPuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Config.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Config.html",
+          "hash": "PTLqPjP86v4li9UCwiyp0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.DiffGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.DiffGenerator.html",
+          "hash": "MJGVK1Bt1W0zGnNnS617RA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.DirectoryCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.DirectoryCollection.html",
+          "hash": "2kHE07kUPAnFz4qevt1DRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.DirectoryNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.DirectoryNode.html",
+          "hash": "bQCEO783TfHARNp31ijDIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.FolderZipManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.FolderZipManager.html",
+          "hash": "KaYCsc1tiepttVr5WUKl1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.IOctoAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.IOctoAuth.html",
+          "hash": "q6at1jubeOTJgOHLaQZngw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.IOctoProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.IOctoProjects.html",
+          "hash": "NnzqPgybtnNFRVS6Fjm4JQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.IOctoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.IOctoService.html",
+          "hash": "5HvkSLx6+X8U9RTgPaKuZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.IOctoStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.IOctoStorage.html",
+          "hash": "ds83iusMKq23y4ytWmD6TA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Manifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Manifest.html",
+          "hash": "eAWABa+txbL+xwA/9MKA9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Project.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Project.html",
+          "hash": "yHQPH0lucrU+qlkdMLcdDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.ProjectPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.ProjectPermissions.html",
+          "hash": "L5lnJJwf6yNSi+DUCKtRbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Repository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Repository.html",
+          "hash": "0bh5wvIKfwo3lRjgMbV3Rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.UserPermissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.UserPermissions.html",
+          "hash": "qy6nF6OMplbZPp/QjV5fbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Utils.html",
+          "hash": "BnijOAiaSxjI59K/8xaVaQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.Vault.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.Vault.html",
+          "hash": "Bpu9onOMEtTcYJyL+wl1fw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.html",
+          "hash": "BprewHxsZ84mQfnKVya4zQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api-core/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/toc.html",
+          "hash": "sKEnVcbqJdQ/uiTGAd33PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.Constants.html",
+          "hash": "TqW5wab7Za2axmnPwhsPlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.Error.html",
+          "hash": "dPf4Ais5DkE9cgOy0tIF0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.OctoProjects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.OctoProjects.html",
+          "hash": "lPmbXJhn/QLqYRZqONX/2w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.OctoService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.OctoService.html",
+          "hash": "Txos34W/YOcjtSijkuoExQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.OctoStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.OctoStorage.html",
+          "hash": "ZOb8acLtIHh0ncGuNXOBBQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.Permissions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.Permissions.html",
+          "hash": "7MV/wPgobzc0qRf088QFoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.Serialize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.Serialize.html",
+          "hash": "SA3akLHT3lPoXtfb3rsQAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.Server.html",
+          "hash": "z4S+TE3Gdgc0mTL2zqR31g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.User.html",
+          "hash": "Lwlh1qRbQhhMI7SxNyx3eA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-server/Octo_Server.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/Octo_Server.html",
+          "hash": "iX+E78Mdk4YBLdXjuJyuBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api-server/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-server/toc.html",
+          "hash": "ez4i584DM2lutNbWC8yzGg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "YogSCnhGJbX9ahf1VfioPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 33
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
