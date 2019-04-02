@@ -1,17 +1,17 @@
 {
-  "index.html": {
-    "href": "index.html",
-    "title": "Welcome to the Octo Documentation. | Octo - Documentation",
-    "keywords": "Welcome to the Octo Documentation. To learn how to quickly start up an Octo project, please refer to the Quick Start Guide . Or, follow the steps below. Quick Start Configuring the Server First, you must create a new text file in the server directory named \"_config.octo\". Then, in this file, you can specify the properties you wish to use, if they are different from the default values. You can read about the default values and config properties in Octo here. Here is an extremely simple example config file. Note: A config file must exist for the server to run, even if it is blank. server_ip=127.0.0.1 server_port=13000 Once you have created this config file, you can then start the server. When starting it up for the first time, please change the default user account from \"admin\". Further configuration of individual projects is all done client-side. Logging in with the default user will allow you to change most of these settings. Using the GUI Client The GUI client currently does not exist. Using the Client API The client API is made up of three main components: The Project Manager (octoProjectManager) The Authentication Service (octoAuthService) The Client Hook When attempting to connect to a server, use the authentication service to connect to the address, like in the example below. var myClient = new OctoClient(\"myepicwebsite.com\", 6920); bool success = myClient.Login(\"Jimmy_Neutron\", \"jimmyneutron123\"); You can then use the Project Manager to create and destroy projects, push and pull projects, and add or change permission for users. This is done like so: //Create a project. myClient.CreateProject(\"ProjectName\"); //Set user permissions for a project. myClient.SetUserPermissions(\"ProjectName\", \"someUser\", UserPermissions.FULL_PERMISSION); //Delete a project. myClient.DeleteProject(\"ProjectName\"); You can also access the user's raw token (if required for some purpose) by using myClient.GetEncryptedToken() . For more information on how to use Octo, please check the \"Guides\" section in the navigation bar."
+  "articles/intro.html": {
+    "href": "articles/intro.html",
+    "title": "Add your introductions here! | Octo - Documentation",
+    "keywords": "Add your introductions here!"
   },
   "api/index.html": {
     "href": "api/index.html",
     "title": "PLACEHOLDER | Octo - Documentation",
     "keywords": "PLACEHOLDER TODO: Add .NET projects to src folder and run docfx to generate a REAL API Documentation !"
   },
-  "articles/intro.html": {
-    "href": "articles/intro.html",
-    "title": "Add your introductions here! | Octo - Documentation",
-    "keywords": "Add your introductions here!"
+  "index.html": {
+    "href": "index.html",
+    "title": "Welcome to the Octo Documentation. | Octo - Documentation",
+    "keywords": "Welcome to the Octo Documentation. To learn how to quickly start up an Octo project, please refer to the Quick Start Guide . Or, follow the steps below. Quick Start Configuring the Server First, you must create a new text file in the server directory named \"_config.octo\". Then, in this file, you can specify the properties you wish to use, if they are different from the default values. You can read about the default values and config properties in Octo here. Here is an extremely simple example config file. Note: A config file must exist for the server to run, even if it is blank. server_ip=127.0.0.1 server_port=13000 Once you have created this config file, you can then start the server. When starting it up for the first time, please change the default user account from \"admin\". Further configuration of individual projects is all done client-side. Logging in with the default user will allow you to change most of these settings. Using the GUI Client The GUI client currently does not exist. Using the Client API The client API is made up of three main components: The Project Manager (octoProjectManager) The Authentication Service (octoAuthService) The Client Hook When attempting to connect to a server, use the authentication service to connect to the address, like in the example below. var myClient = new OctoClient(\"myepicwebsite.com\", 6920); bool success = myClient.Login(\"Jimmy_Neutron\", \"jimmyneutron123\"); You can then use the Project Manager to create and destroy projects, push and pull projects, and add or change permission for users. This is done like so: //Create a project. myClient.CreateProject(\"ProjectName\"); //Set user permissions for a project. myClient.SetUserPermissions(\"ProjectName\", \"someUser\", UserPermissions.FULL_PERMISSION); //Delete a project. myClient.DeleteProject(\"ProjectName\"); You can also access the user's raw token (if required for some purpose) by using myClient.GetEncryptedToken() . For more information on how to use Octo, please check the \"Guides\" section in the navigation bar."
   }
 }
