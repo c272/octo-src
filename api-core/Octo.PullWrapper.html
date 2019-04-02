@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IOctoService
+    <title>Struct PullWrapper
    | Octo - Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IOctoService
+    <meta name="title" content="Struct PullWrapper
    | Octo - Documentation ">
     <meta name="generator" content="docfx 2.41.0.0">
     
@@ -78,42 +78,59 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Octo.IOctoService">
+            <article class="content wrap" id="_content" data-uid="Octo.PullWrapper">
   
   
-  <h1 id="Octo_IOctoService" data-uid="Octo.IOctoService" class="text-break">Interface IOctoService
+  <h1 id="Octo_PullWrapper" data-uid="Octo.PullWrapper" class="text-break">Struct PullWrapper
   </h1>
-  <div class="markdown level0 summary"><p>The public interface outline for basic Octo functions, with function prototypes.</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.ValueType.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.ValueType.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Octo.html">Octo</a></h6>
   <h6><strong>Assembly</strong>: Octo-Core.dll</h6>
-  <h5 id="Octo_IOctoService_syntax">Syntax</h5>
+  <h5 id="Octo_PullWrapper_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ServiceContract]
-public interface IOctoService</code></pre>
+    <pre><code class="lang-csharp hljs">[MessageContract]
+public struct PullWrapper</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoService_ACK.md&amp;value=---%0Auid%3A%20Octo.IOctoService.ACK%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_PullWrapper_repo.md&amp;value=---%0Auid%3A%20Octo.PullWrapper.repo%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoService.cs/#L20">View Source</a>
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L49">View Source</a>
   </span>
-  <a id="Octo_IOctoService_ACK_" data-uid="Octo.IOctoService.ACK*"></a>
-  <h4 id="Octo_IOctoService_ACK" data-uid="Octo.IOctoService.ACK">ACK()</h4>
-  <div class="markdown level1 summary"><p>Asks the server for acknowledgement of a connection.</p>
-</div>
+  <h4 id="Octo_PullWrapper_repo" data-uid="Octo.PullWrapper.repo">repo</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OperationContract]
-[WebGet]
-string ACK()</code></pre>
+    <pre><code class="lang-csharp hljs">[MessageBodyMember]
+public string repo</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -124,30 +141,26 @@ string ACK()</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><p>String response of acknowledgement or rejection.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoService_GetSessionKey.md&amp;value=---%0Auid%3A%20Octo.IOctoService.GetSessionKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_PullWrapper_token_encrypted.md&amp;value=---%0Auid%3A%20Octo.PullWrapper.token_encrypted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoService.cs/#L28">View Source</a>
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L51">View Source</a>
   </span>
-  <a id="Octo_IOctoService_GetSessionKey_" data-uid="Octo.IOctoService.GetSessionKey*"></a>
-  <h4 id="Octo_IOctoService_GetSessionKey" data-uid="Octo.IOctoService.GetSessionKey">GetSessionKey()</h4>
-  <div class="markdown level1 summary"><p>Gets a session key for the user for encrypting sensitive data.</p>
-</div>
+  <h4 id="Octo_PullWrapper_token_encrypted" data-uid="Octo.PullWrapper.token_encrypted">token_encrypted</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[OperationContract]
-[WebGet]
-Key GetSessionKey()</code></pre>
+    <pre><code class="lang-csharp hljs">[MessageBodyMember]
+public byte[] token_encrypted</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -157,9 +170,8 @@ Key GetSessionKey()</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Key</span></td>
-        <td><p>A valid session key.</p>
-</td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -171,10 +183,10 @@ Key GetSessionKey()</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoService.md&amp;value=---%0Auid%3A%20Octo.IOctoService%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_PullWrapper.md&amp;value=---%0Auid%3A%20Octo.PullWrapper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoService.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L45" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

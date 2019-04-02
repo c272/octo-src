@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
@@ -94,10 +94,15 @@ public interface IOctoStorage</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoStorage_Pull_Octo_PullWrapper_.md&amp;value=---%0Auid%3A%20Octo.IOctoStorage.Pull(Octo.PullWrapper)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L30">View Source</a>
+  </span>
   <a id="Octo_IOctoStorage_Pull_" data-uid="Octo.IOctoStorage.Pull*"></a>
-  <h4 id="Octo_IOctoStorage_Pull_System_String_System_Byte___" data-uid="Octo.IOctoStorage.Pull(System.String,System.Byte[])">Pull(String, Byte[])</h4>
+  <h4 id="Octo_IOctoStorage_Pull_Octo_PullWrapper_" data-uid="Octo.IOctoStorage.Pull(Octo.PullWrapper)">Pull(PullWrapper)</h4>
   <div class="markdown level1 summary"><p>Pull changes for a given repository since last commit to local.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -105,7 +110,7 @@ public interface IOctoStorage</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OperationContract]
 [WebInvoke(BodyStyle = WebMessageBodyStyle.Wrapped)]
-Stream Pull(string repo, byte[] token_encrypted)</code></pre>
+MemoryStream Pull(PullWrapper p)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,15 +123,9 @@ Stream Pull(string repo, byte[] token_encrypted)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">repo</span></td>
-        <td><p>The repository to pull from.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">token_encrypted</span></td>
-        <td><p>The user&apos;s token, encrypted with the session key.</p>
+        <td><a class="xref" href="Octo.PullWrapper.html">PullWrapper</a></td>
+        <td><span class="parametername">p</span></td>
+        <td><p>The &quot;PullWrapper&quot;, as to adhere to a single input/output field in WCF.</p>
 </td>
       </tr>
     </tbody>
@@ -141,16 +140,21 @@ Stream Pull(string repo, byte[] token_encrypted)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
+        <td><span class="xref">System.IO.MemoryStream</span></td>
         <td><p>A file stream containing the commmits required.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoStorage_Push_Octo_PushWrapper_.md&amp;value=---%0Auid%3A%20Octo.IOctoStorage.Push(Octo.PushWrapper)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L21">View Source</a>
+  </span>
   <a id="Octo_IOctoStorage_Push_" data-uid="Octo.IOctoStorage.Push*"></a>
-  <h4 id="Octo_IOctoStorage_Push_System_String_System_Collections_Generic_Dictionary_System_UInt64_System_String__System_IO_Stream_System_Byte___" data-uid="Octo.IOctoStorage.Push(System.String,System.Collections.Generic.Dictionary{System.UInt64,System.String},System.IO.Stream,System.Byte[])">Push(String, Dictionary&lt;UInt64, String&gt;, Stream, Byte[])</h4>
+  <h4 id="Octo_IOctoStorage_Push_Octo_PushWrapper_" data-uid="Octo.IOctoStorage.Push(Octo.PushWrapper)">Push(PushWrapper)</h4>
   <div class="markdown level1 summary"><p>Pushes the changes for a given repository since last commit to the server.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -158,7 +162,7 @@ Stream Pull(string repo, byte[] token_encrypted)</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OperationContract]
 [WebInvoke(BodyStyle = WebMessageBodyStyle.Wrapped)]
-void Push(string repo, Dictionary&lt;ulong, string&gt; commits, Stream fileStream, byte[] token_encrypted)</code></pre>
+bool Push(PushWrapper p)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,33 +175,35 @@ void Push(string repo, Dictionary&lt;ulong, string&gt; commits, Stream fileStrea
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">repo</span></td>
-        <td><p>The name of the repo to push.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.String</span>&gt;</td>
-        <td><span class="parametername">commits</span></td>
-        <td><p>The list of commits to push.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.IO.Stream</span></td>
-        <td><span class="parametername">fileStream</span></td>
-        <td><p>A file stream of the commits to add.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
-        <td><span class="parametername">token_encrypted</span></td>
-        <td><p>The user&apos;s token, encrypted with the session key.</p>
+        <td><a class="xref" href="Octo.PushWrapper.html">PushWrapper</a></td>
+        <td><span class="parametername">p</span></td>
+        <td><p>The &quot;PushWrapper&quot;, as to adhere to a single input/output field in WCF. See &quot;PushWrapper&quot; for more details.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoStorage_RollBack_System_String_System_Byte___.md&amp;value=---%0Auid%3A%20Octo.IOctoStorage.RollBack(System.String%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L39">View Source</a>
+  </span>
   <a id="Octo_IOctoStorage_RollBack_" data-uid="Octo.IOctoStorage.RollBack*"></a>
   <h4 id="Octo_IOctoStorage_RollBack_System_String_System_Byte___" data-uid="Octo.IOctoStorage.RollBack(System.String,System.Byte[])">RollBack(String, Byte[])</h4>
   <div class="markdown level1 summary"><p>Reverts an existing commit, given the client has access.</p>
@@ -240,6 +246,12 @@ void RollBack(string repo, byte[] token_encrypted)</code></pre>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoStorage.md&amp;value=---%0Auid%3A%20Octo.IOctoStorage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoStorage.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

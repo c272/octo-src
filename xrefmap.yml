@@ -295,11 +295,11 @@ references:
   commentId: T:Octo.IOctoAuth
   fullName: Octo.IOctoAuth
   nameWithType: IOctoAuth
-- uid: Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
+- uid: Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
   name: Login(String, LockedBytes, Key)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_SharpRSA_LockedBytes_SharpRSA_Key_
-  commentId: M:Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
-  fullName: Octo.IOctoAuth.Login(System.String, SharpRSA.LockedBytes, SharpRSA.Key)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_LockedBytes_Key_
+  commentId: M:Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
+  fullName: Octo.IOctoAuth.Login(System.String, LockedBytes, Key)
   nameWithType: IOctoAuth.Login(String, LockedBytes, Key)
 - uid: Octo.IOctoAuth.Login*
   name: Login
@@ -324,11 +324,11 @@ references:
   isSpec: "True"
   fullName: Octo.IOctoAuth.LogOut
   nameWithType: IOctoAuth.LogOut
-- uid: Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
+- uid: Octo.IOctoAuth.Register(System.String,LockedBytes)
   name: Register(String, LockedBytes)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_SharpRSA_LockedBytes_
-  commentId: M:Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
-  fullName: Octo.IOctoAuth.Register(System.String, SharpRSA.LockedBytes)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_LockedBytes_
+  commentId: M:Octo.IOctoAuth.Register(System.String,LockedBytes)
+  fullName: Octo.IOctoAuth.Register(System.String, LockedBytes)
   nameWithType: IOctoAuth.Register(String, LockedBytes)
 - uid: Octo.IOctoAuth.Register*
   name: Register
@@ -445,15 +445,12 @@ references:
   commentId: T:Octo.IOctoStorage
   fullName: Octo.IOctoStorage
   nameWithType: IOctoStorage
-- uid: Octo.IOctoStorage.Pull(System.String,System.Byte[])
-  name: Pull(String, Byte[])
-  href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Pull_System_String_System_Byte___
-  commentId: M:Octo.IOctoStorage.Pull(System.String,System.Byte[])
-  name.vb: Pull(String, Byte())
-  fullName: Octo.IOctoStorage.Pull(System.String, System.Byte[])
-  fullName.vb: Octo.IOctoStorage.Pull(System.String, System.Byte())
-  nameWithType: IOctoStorage.Pull(String, Byte[])
-  nameWithType.vb: IOctoStorage.Pull(String, Byte())
+- uid: Octo.IOctoStorage.Pull(Octo.PullWrapper)
+  name: Pull(PullWrapper)
+  href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Pull_Octo_PullWrapper_
+  commentId: M:Octo.IOctoStorage.Pull(Octo.PullWrapper)
+  fullName: Octo.IOctoStorage.Pull(Octo.PullWrapper)
+  nameWithType: IOctoStorage.Pull(PullWrapper)
 - uid: Octo.IOctoStorage.Pull*
   name: Pull
   href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Pull_
@@ -461,15 +458,12 @@ references:
   isSpec: "True"
   fullName: Octo.IOctoStorage.Pull
   nameWithType: IOctoStorage.Pull
-- uid: Octo.IOctoStorage.Push(System.String,System.Collections.Generic.Dictionary{System.UInt64,System.String},System.IO.Stream,System.Byte[])
-  name: Push(String, Dictionary<UInt64, String>, Stream, Byte[])
-  href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Push_System_String_System_Collections_Generic_Dictionary_System_UInt64_System_String__System_IO_Stream_System_Byte___
-  commentId: M:Octo.IOctoStorage.Push(System.String,System.Collections.Generic.Dictionary{System.UInt64,System.String},System.IO.Stream,System.Byte[])
-  name.vb: Push(String, Dictionary(Of UInt64, String), Stream, Byte())
-  fullName: Octo.IOctoStorage.Push(System.String, System.Collections.Generic.Dictionary<System.UInt64, System.String>, System.IO.Stream, System.Byte[])
-  fullName.vb: Octo.IOctoStorage.Push(System.String, System.Collections.Generic.Dictionary(Of System.UInt64, System.String), System.IO.Stream, System.Byte())
-  nameWithType: IOctoStorage.Push(String, Dictionary<UInt64, String>, Stream, Byte[])
-  nameWithType.vb: IOctoStorage.Push(String, Dictionary(Of UInt64, String), Stream, Byte())
+- uid: Octo.IOctoStorage.Push(Octo.PushWrapper)
+  name: Push(PushWrapper)
+  href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Push_Octo_PushWrapper_
+  commentId: M:Octo.IOctoStorage.Push(Octo.PushWrapper)
+  fullName: Octo.IOctoStorage.Push(Octo.PushWrapper)
+  nameWithType: IOctoStorage.Push(PushWrapper)
 - uid: Octo.IOctoStorage.Push*
   name: Push
   href: api-core/Octo.IOctoStorage.html#Octo_IOctoStorage_Push_
@@ -580,6 +574,48 @@ references:
   commentId: F:Octo.ProjectPermissions.User
   fullName: Octo.ProjectPermissions.User
   nameWithType: ProjectPermissions.User
+- uid: Octo.PullWrapper
+  name: PullWrapper
+  href: api-core/Octo.PullWrapper.html
+  commentId: T:Octo.PullWrapper
+  fullName: Octo.PullWrapper
+  nameWithType: PullWrapper
+- uid: Octo.PullWrapper.repo
+  name: repo
+  href: api-core/Octo.PullWrapper.html#Octo_PullWrapper_repo
+  commentId: F:Octo.PullWrapper.repo
+  fullName: Octo.PullWrapper.repo
+  nameWithType: PullWrapper.repo
+- uid: Octo.PullWrapper.token_encrypted
+  name: token_encrypted
+  href: api-core/Octo.PullWrapper.html#Octo_PullWrapper_token_encrypted
+  commentId: F:Octo.PullWrapper.token_encrypted
+  fullName: Octo.PullWrapper.token_encrypted
+  nameWithType: PullWrapper.token_encrypted
+- uid: Octo.PushWrapper
+  name: PushWrapper
+  href: api-core/Octo.PushWrapper.html
+  commentId: T:Octo.PushWrapper
+  fullName: Octo.PushWrapper
+  nameWithType: PushWrapper
+- uid: Octo.PushWrapper.fileStream
+  name: fileStream
+  href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_fileStream
+  commentId: F:Octo.PushWrapper.fileStream
+  fullName: Octo.PushWrapper.fileStream
+  nameWithType: PushWrapper.fileStream
+- uid: Octo.PushWrapper.repo
+  name: repo
+  href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_repo
+  commentId: F:Octo.PushWrapper.repo
+  fullName: Octo.PushWrapper.repo
+  nameWithType: PushWrapper.repo
+- uid: Octo.PushWrapper.token_encrypted
+  name: token_encrypted
+  href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_token_encrypted
+  commentId: F:Octo.PushWrapper.token_encrypted
+  fullName: Octo.PushWrapper.token_encrypted
+  nameWithType: PushWrapper.token_encrypted
 - uid: Octo.Repository
   name: Repository
   href: api-core/Octo.Repository.html
@@ -1063,6 +1099,25 @@ references:
   commentId: F:Octo_Client.OctoClient.octoService
   fullName: Octo_Client.OctoClient.octoService
   nameWithType: OctoClient.octoService
+- uid: Octo_Client.OctoClient.octoStorage
+  name: octoStorage
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_octoStorage
+  commentId: F:Octo_Client.OctoClient.octoStorage
+  fullName: Octo_Client.OctoClient.octoStorage
+  nameWithType: OctoClient.octoStorage
+- uid: Octo_Client.OctoClient.PushRepo(System.String,System.String)
+  name: PushRepo(String, String)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_PushRepo_System_String_System_String_
+  commentId: M:Octo_Client.OctoClient.PushRepo(System.String,System.String)
+  fullName: Octo_Client.OctoClient.PushRepo(System.String, System.String)
+  nameWithType: OctoClient.PushRepo(String, String)
+- uid: Octo_Client.OctoClient.PushRepo*
+  name: PushRepo
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_PushRepo_
+  commentId: Overload:Octo_Client.OctoClient.PushRepo
+  isSpec: "True"
+  fullName: Octo_Client.OctoClient.PushRepo
+  nameWithType: OctoClient.PushRepo
 - uid: Octo_Client.OctoClient.Register(System.String,System.String)
   name: Register(String, String)
   href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_Register_System_String_System_String_
@@ -1101,6 +1156,54 @@ references:
   isSpec: "True"
   fullName: Octo_Client.OctoClient.SetProjectPermissions
   nameWithType: OctoClient.SetProjectPermissions
+- uid: Octo_Client.Storage
+  name: Storage
+  href: api-client/Octo_Client.Storage.html
+  commentId: T:Octo_Client.Storage
+  fullName: Octo_Client.Storage
+  nameWithType: Storage
+- uid: Octo_Client.Storage.#ctor(System.Byte[],Octo_Client.NetworkStream{Octo.IOctoStorage})
+  name: Storage(Byte[], NetworkStream<IOctoStorage>)
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage__ctor_System_Byte___Octo_Client_NetworkStream_Octo_IOctoStorage__
+  commentId: M:Octo_Client.Storage.#ctor(System.Byte[],Octo_Client.NetworkStream{Octo.IOctoStorage})
+  name.vb: Storage(Byte(), NetworkStream(Of IOctoStorage))
+  fullName: Octo_Client.Storage.Storage(System.Byte[], Octo_Client.NetworkStream<Octo.IOctoStorage>)
+  fullName.vb: Octo_Client.Storage.Storage(System.Byte(), Octo_Client.NetworkStream(Of Octo.IOctoStorage))
+  nameWithType: Storage.Storage(Byte[], NetworkStream<IOctoStorage>)
+  nameWithType.vb: Storage.Storage(Byte(), NetworkStream(Of IOctoStorage))
+- uid: Octo_Client.Storage.#ctor*
+  name: Storage
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage__ctor_
+  commentId: Overload:Octo_Client.Storage.#ctor
+  isSpec: "True"
+  fullName: Octo_Client.Storage.Storage
+  nameWithType: Storage.Storage
+- uid: Octo_Client.Storage.Pull(System.String,System.String,System.String)
+  name: Pull(String, String, String)
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage_Pull_System_String_System_String_System_String_
+  commentId: M:Octo_Client.Storage.Pull(System.String,System.String,System.String)
+  fullName: Octo_Client.Storage.Pull(System.String, System.String, System.String)
+  nameWithType: Storage.Pull(String, String, String)
+- uid: Octo_Client.Storage.Pull*
+  name: Pull
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage_Pull_
+  commentId: Overload:Octo_Client.Storage.Pull
+  isSpec: "True"
+  fullName: Octo_Client.Storage.Pull
+  nameWithType: Storage.Pull
+- uid: Octo_Client.Storage.Push(System.String,System.String,System.String)
+  name: Push(String, String, String)
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage_Push_System_String_System_String_System_String_
+  commentId: M:Octo_Client.Storage.Push(System.String,System.String,System.String)
+  fullName: Octo_Client.Storage.Push(System.String, System.String, System.String)
+  nameWithType: Storage.Push(String, String, String)
+- uid: Octo_Client.Storage.Push*
+  name: Push
+  href: api-client/Octo_Client.Storage.html#Octo_Client_Storage_Push_
+  commentId: Overload:Octo_Client.Storage.Push
+  isSpec: "True"
+  fullName: Octo_Client.Storage.Push
+  nameWithType: Storage.Push
 - uid: Octo_Server
   name: Octo_Server
   href: api-server/Octo_Server.html
@@ -1328,15 +1431,41 @@ references:
   commentId: T:Octo_Server.OctoStorage
   fullName: Octo_Server.OctoStorage
   nameWithType: OctoStorage
-- uid: Octo_Server.OctoStorage.Pull(System.String,System.Byte[])
-  name: Pull(String, Byte[])
-  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Pull_System_String_System_Byte___
-  commentId: M:Octo_Server.OctoStorage.Pull(System.String,System.Byte[])
-  name.vb: Pull(String, Byte())
-  fullName: Octo_Server.OctoStorage.Pull(System.String, System.Byte[])
-  fullName.vb: Octo_Server.OctoStorage.Pull(System.String, System.Byte())
-  nameWithType: OctoStorage.Pull(String, Byte[])
-  nameWithType.vb: OctoStorage.Pull(String, Byte())
+- uid: Octo_Server.OctoStorage.#ctor
+  name: OctoStorage()
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage__ctor
+  commentId: M:Octo_Server.OctoStorage.#ctor
+  fullName: Octo_Server.OctoStorage.OctoStorage()
+  nameWithType: OctoStorage.OctoStorage()
+- uid: Octo_Server.OctoStorage.#ctor*
+  name: OctoStorage
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage__ctor_
+  commentId: Overload:Octo_Server.OctoStorage.#ctor
+  isSpec: "True"
+  fullName: Octo_Server.OctoStorage.OctoStorage
+  nameWithType: OctoStorage.OctoStorage
+- uid: Octo_Server.OctoStorage.CheckUserAndProject(System.Byte[],System.String,Octo.UserPermissions)
+  name: CheckUserAndProject(Byte[], String, UserPermissions)
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_CheckUserAndProject_System_Byte___System_String_Octo_UserPermissions_
+  commentId: M:Octo_Server.OctoStorage.CheckUserAndProject(System.Byte[],System.String,Octo.UserPermissions)
+  name.vb: CheckUserAndProject(Byte(), String, UserPermissions)
+  fullName: Octo_Server.OctoStorage.CheckUserAndProject(System.Byte[], System.String, Octo.UserPermissions)
+  fullName.vb: Octo_Server.OctoStorage.CheckUserAndProject(System.Byte(), System.String, Octo.UserPermissions)
+  nameWithType: OctoStorage.CheckUserAndProject(Byte[], String, UserPermissions)
+  nameWithType.vb: OctoStorage.CheckUserAndProject(Byte(), String, UserPermissions)
+- uid: Octo_Server.OctoStorage.CheckUserAndProject*
+  name: CheckUserAndProject
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_CheckUserAndProject_
+  commentId: Overload:Octo_Server.OctoStorage.CheckUserAndProject
+  isSpec: "True"
+  fullName: Octo_Server.OctoStorage.CheckUserAndProject
+  nameWithType: OctoStorage.CheckUserAndProject
+- uid: Octo_Server.OctoStorage.Pull(Octo.PullWrapper)
+  name: Pull(PullWrapper)
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Pull_Octo_PullWrapper_
+  commentId: M:Octo_Server.OctoStorage.Pull(Octo.PullWrapper)
+  fullName: Octo_Server.OctoStorage.Pull(Octo.PullWrapper)
+  nameWithType: OctoStorage.Pull(PullWrapper)
 - uid: Octo_Server.OctoStorage.Pull*
   name: Pull
   href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Pull_
@@ -1344,15 +1473,12 @@ references:
   isSpec: "True"
   fullName: Octo_Server.OctoStorage.Pull
   nameWithType: OctoStorage.Pull
-- uid: Octo_Server.OctoStorage.Push(System.String,System.Collections.Generic.Dictionary{System.UInt64,System.String},System.IO.Stream,System.Byte[])
-  name: Push(String, Dictionary<UInt64, String>, Stream, Byte[])
-  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Push_System_String_System_Collections_Generic_Dictionary_System_UInt64_System_String__System_IO_Stream_System_Byte___
-  commentId: M:Octo_Server.OctoStorage.Push(System.String,System.Collections.Generic.Dictionary{System.UInt64,System.String},System.IO.Stream,System.Byte[])
-  name.vb: Push(String, Dictionary(Of UInt64, String), Stream, Byte())
-  fullName: Octo_Server.OctoStorage.Push(System.String, System.Collections.Generic.Dictionary<System.UInt64, System.String>, System.IO.Stream, System.Byte[])
-  fullName.vb: Octo_Server.OctoStorage.Push(System.String, System.Collections.Generic.Dictionary(Of System.UInt64, System.String), System.IO.Stream, System.Byte())
-  nameWithType: OctoStorage.Push(String, Dictionary<UInt64, String>, Stream, Byte[])
-  nameWithType.vb: OctoStorage.Push(String, Dictionary(Of UInt64, String), Stream, Byte())
+- uid: Octo_Server.OctoStorage.Push(Octo.PushWrapper)
+  name: Push(PushWrapper)
+  href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Push_Octo_PushWrapper_
+  commentId: M:Octo_Server.OctoStorage.Push(Octo.PushWrapper)
+  fullName: Octo_Server.OctoStorage.Push(Octo.PushWrapper)
+  nameWithType: OctoStorage.Push(PushWrapper)
 - uid: Octo_Server.OctoStorage.Push*
   name: Push
   href: api-server/Octo_Server.OctoStorage.html#Octo_Server_OctoStorage_Push_
@@ -1556,6 +1682,12 @@ references:
   commentId: F:Octo_Server.Server.storagehost_endpoint
   fullName: Octo_Server.Server.storagehost_endpoint
   nameWithType: Server.storagehost_endpoint
+- uid: Octo_Server.Server.streamBinding
+  name: streamBinding
+  href: api-server/Octo_Server.Server.html#Octo_Server_Server_streamBinding
+  commentId: F:Octo_Server.Server.streamBinding
+  fullName: Octo_Server.Server.streamBinding
+  nameWithType: Server.streamBinding
 - uid: Octo_Server.User
   name: User
   href: api-server/Octo_Server.User.html
