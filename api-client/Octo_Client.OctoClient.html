@@ -304,6 +304,123 @@
   </h3>
   
   
+  <a id="Octo_Client_OctoClient_CreateProject_" data-uid="Octo_Client.OctoClient.CreateProject*"></a>
+  <h4 id="Octo_Client_OctoClient_CreateProject_System_String_" data-uid="Octo_Client.OctoClient.CreateProject(System.String)">CreateProject(String)</h4>
+  <div class="markdown level1 summary"><p>Creates a project server-side with a given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CreateProject(string project)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">project</span></td>
+        <td><p>The name of the project.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Success/failure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Octo_Client_OctoClient_DeleteProject_" data-uid="Octo_Client.OctoClient.DeleteProject*"></a>
+  <h4 id="Octo_Client_OctoClient_DeleteProject_System_String_" data-uid="Octo_Client.OctoClient.DeleteProject(System.String)">DeleteProject(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a project server-side with a given name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DeleteProject(string project)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">project</span></td>
+        <td><p>The name of the project.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Success/failure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Octo_Client_OctoClient_GetAvailableProjects_" data-uid="Octo_Client.OctoClient.GetAvailableProjects*"></a>
+  <h4 id="Octo_Client_OctoClient_GetAvailableProjects" data-uid="Octo_Client.OctoClient.GetAvailableProjects">GetAvailableProjects()</h4>
+  <div class="markdown level1 summary"><p>Gets the projects available to the logged-in user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValuePair&lt;bool, List&lt;Project&gt;&gt; GetAvailableProjects()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ValuePair</span>&lt;<span class="xref">System.Boolean</span>, <span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="../api-core/Octo.Project.html">Project</a>&gt;&gt;</td>
+        <td><p>Success/fail, list of projects.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Octo_Client_OctoClient_GetEncryptedToken_" data-uid="Octo_Client.OctoClient.GetEncryptedToken*"></a>
   <h4 id="Octo_Client_OctoClient_GetEncryptedToken" data-uid="Octo_Client.OctoClient.GetEncryptedToken">GetEncryptedToken()</h4>
   <div class="markdown level1 summary"><p>Returns a token encrypted with the server session key.</p>
@@ -407,7 +524,8 @@
   
   <a id="Octo_Client_OctoClient_Register_" data-uid="Octo_Client.OctoClient.Register*"></a>
   <h4 id="Octo_Client_OctoClient_Register_System_String_System_String_" data-uid="Octo_Client.OctoClient.Register(System.String,System.String)">Register(String, String)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Registers a new user, from the active client.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -426,12 +544,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">username</span></td>
-        <td></td>
+        <td><p>The username to register.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">password</span></td>
-        <td></td>
+        <td><p>The password to register.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -447,6 +567,63 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Octo_Client_OctoClient_SetProjectPermissions_" data-uid="Octo_Client.OctoClient.SetProjectPermissions*"></a>
+  <h4 id="Octo_Client_OctoClient_SetProjectPermissions_System_String_System_String_Octo_UserPermissions_" data-uid="Octo_Client.OctoClient.SetProjectPermissions(System.String,System.String,Octo.UserPermissions)">SetProjectPermissions(String, String, UserPermissions)</h4>
+  <div class="markdown level1 summary"><p>Sets the permissions for a given user on a given project.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool SetProjectPermissions(string project, string user, UserPermissions permissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">project</span></td>
+        <td><p>The project to set permissions for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to set permissions for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="../api-core/Octo.UserPermissions.html">UserPermissions</a></td>
+        <td><span class="parametername">permissions</span></td>
+        <td><p>The permission level to give them.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Success/failure.</p>
+</td>
       </tr>
     </tbody>
   </table>

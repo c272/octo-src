@@ -87,7 +87,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "lswA+yWTeAf8SW+zHTAFGg=="
+          "hash": "fgDw3fh+sPX4IBLKudgPWw=="
         }
       },
       "is_incremental": false,
@@ -123,19 +123,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.OctoClient.html",
-          "hash": "tQyTxLB1h8Wh2iYlilOkWA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api-client/Octo_Client.ProjectManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api-client/Octo_Client.ProjectManager.html",
-          "hash": "2b01OSqJoOVZjcZ5ZbwuFQ=="
+          "hash": "SdPgMAHd9L+l2/KKQymeow=="
         }
       },
       "is_incremental": false,
@@ -147,7 +135,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/Octo_Client.html",
-          "hash": "vW2ef9Yiam0BEhCPaoaX4g=="
+          "hash": "pRr5f2xix8I2KUz8NIKroA=="
         }
       },
       "is_incremental": false,
@@ -159,7 +147,7 @@
       "output": {
         ".html": {
           "relative_path": "api-client/toc.html",
-          "hash": "i5nFZymRWGzWMjqxMQlLGg=="
+          "hash": "lxCWjDcZCC0c6DSim1XP8g=="
         }
       },
       "is_incremental": false,
@@ -255,7 +243,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.IOctoProjects.html",
-          "hash": "Y9DOdXKovRVwkqqYvv7K2A=="
+          "hash": "g4JW2A+3qb3OEwPmIv/qIA=="
         }
       },
       "is_incremental": false,
@@ -291,7 +279,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Manifest.html",
-          "hash": "ewEgzdEiQS+xGk211ZIwNA=="
+          "hash": "PLFn1TVwXcvGf0B7lLaAiA=="
         }
       },
       "is_incremental": false,
@@ -303,7 +291,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.Project.html",
-          "hash": "zRh9qjHbtauZLyIJcnEfcA=="
+          "hash": "KW5NORYjv0Pzmv63TCDVgA=="
         }
       },
       "is_incremental": false,
@@ -315,7 +303,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.ProjectPermissions.html",
-          "hash": "Xs+jXuAHbpGzO1KLgMOy2A=="
+          "hash": "qE+myKflpeVdL16WzpQ1Mg=="
         }
       },
       "is_incremental": false,
@@ -339,7 +327,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.UserPermissions.html",
-          "hash": "qGEXPKIbKZLAAfR2H0s9Fw=="
+          "hash": "NCKcLS7CavM4VlKbaqSjfQ=="
         }
       },
       "is_incremental": false,
@@ -352,6 +340,18 @@
         ".html": {
           "relative_path": "api-core/Octo.Utils.html",
           "hash": "Dm2eJ9bhxaXrSCzECc/LIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api-core/Octo.ValuePair-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api-core/Octo.ValuePair-2.html",
+          "hash": "t3it1oEZLRdCsvxD3kZWXQ=="
         }
       },
       "is_incremental": false,
@@ -375,7 +375,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/Octo.html",
-          "hash": "3hwN+VLJ1pBBt0msk64F+A=="
+          "hash": "U/mCshrR/mtWqjPww7FrKg=="
         }
       },
       "is_incremental": false,
@@ -387,7 +387,7 @@
       "output": {
         ".html": {
           "relative_path": "api-core/toc.html",
-          "hash": "sKEnVcbqJdQ/uiTGAd33PA=="
+          "hash": "fTUnaAiY42VI1uYcALOb6Q=="
         }
       },
       "is_incremental": false,
@@ -399,7 +399,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Constants.html",
-          "hash": "daWdRGCva6RlGgyfcQr9cQ=="
+          "hash": "xruhrcML0u13s9hZkYPJ5Q=="
         }
       },
       "is_incremental": false,
@@ -423,7 +423,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.OctoProjects.html",
-          "hash": "yV4RtWFi02dgwJ3iIM4j9w=="
+          "hash": "VXVs2orzn1SaEwVC7OOesw=="
         }
       },
       "is_incremental": false,
@@ -483,7 +483,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.Server.html",
-          "hash": "k5nN3Plcld4XAD2B5EHX2g=="
+          "hash": "thqB18LdQm4cfugv38ugSw=="
         }
       },
       "is_incremental": false,
@@ -495,7 +495,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.User.html",
-          "hash": "e6/O1G4nvm1LOl+MQQWymw=="
+          "hash": "IJf+zkuckDLTewyBMjTmFg=="
         }
       },
       "is_incremental": false,
@@ -507,7 +507,7 @@
       "output": {
         ".html": {
           "relative_path": "api-server/Octo_Server.html",
-          "hash": "roKSV71EIPSbsWC8n4EH3A=="
+          "hash": "U6yJE9CCRAg1K96yx6aB0w=="
         }
       },
       "is_incremental": false,
@@ -547,13 +547,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -561,17 +554,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 33,
-          "skipped_file_count": 33
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 3,
           "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 33,
+          "skipped_file_count": 18
         }
       }
     },

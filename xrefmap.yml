@@ -773,6 +773,48 @@ references:
   isSpec: "True"
   fullName: Octo.Utils.WriteLineColour
   nameWithType: Utils.WriteLineColour
+- uid: Octo.ValuePair`2
+  name: ValuePair<T1, T2>
+  href: api-core/Octo.ValuePair-2.html
+  commentId: T:Octo.ValuePair`2
+  name.vb: ValuePair(Of T1, T2)
+  fullName: Octo.ValuePair<T1, T2>
+  fullName.vb: Octo.ValuePair(Of T1, T2)
+  nameWithType: ValuePair<T1, T2>
+  nameWithType.vb: ValuePair(Of T1, T2)
+- uid: Octo.ValuePair`2.#ctor(`0,`1)
+  name: ValuePair(T1, T2)
+  href: api-core/Octo.ValuePair-2.html#Octo_ValuePair_2__ctor__0__1_
+  commentId: M:Octo.ValuePair`2.#ctor(`0,`1)
+  fullName: Octo.ValuePair<T1, T2>.ValuePair(T1, T2)
+  fullName.vb: Octo.ValuePair(Of T1, T2).ValuePair(T1, T2)
+  nameWithType: ValuePair<T1, T2>.ValuePair(T1, T2)
+  nameWithType.vb: ValuePair(Of T1, T2).ValuePair(T1, T2)
+- uid: Octo.ValuePair`2.#ctor*
+  name: ValuePair
+  href: api-core/Octo.ValuePair-2.html#Octo_ValuePair_2__ctor_
+  commentId: Overload:Octo.ValuePair`2.#ctor
+  isSpec: "True"
+  fullName: Octo.ValuePair<T1, T2>.ValuePair
+  fullName.vb: Octo.ValuePair(Of T1, T2).ValuePair
+  nameWithType: ValuePair<T1, T2>.ValuePair
+  nameWithType.vb: ValuePair(Of T1, T2).ValuePair
+- uid: Octo.ValuePair`2.Key
+  name: Key
+  href: api-core/Octo.ValuePair-2.html#Octo_ValuePair_2_Key
+  commentId: F:Octo.ValuePair`2.Key
+  fullName: Octo.ValuePair<T1, T2>.Key
+  fullName.vb: Octo.ValuePair(Of T1, T2).Key
+  nameWithType: ValuePair<T1, T2>.Key
+  nameWithType.vb: ValuePair(Of T1, T2).Key
+- uid: Octo.ValuePair`2.Value
+  name: Value
+  href: api-core/Octo.ValuePair-2.html#Octo_ValuePair_2_Value
+  commentId: F:Octo.ValuePair`2.Value
+  fullName: Octo.ValuePair<T1, T2>.Value
+  fullName.vb: Octo.ValuePair(Of T1, T2).Value
+  nameWithType: ValuePair<T1, T2>.Value
+  nameWithType.vb: ValuePair(Of T1, T2).Value
 - uid: Octo.Vault
   name: Vault
   href: api-core/Octo.Vault.html
@@ -925,6 +967,45 @@ references:
   commentId: F:Octo_Client.OctoClient.ClientKeys
   fullName: Octo_Client.OctoClient.ClientKeys
   nameWithType: OctoClient.ClientKeys
+- uid: Octo_Client.OctoClient.CreateProject(System.String)
+  name: CreateProject(String)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_CreateProject_System_String_
+  commentId: M:Octo_Client.OctoClient.CreateProject(System.String)
+  fullName: Octo_Client.OctoClient.CreateProject(System.String)
+  nameWithType: OctoClient.CreateProject(String)
+- uid: Octo_Client.OctoClient.CreateProject*
+  name: CreateProject
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_CreateProject_
+  commentId: Overload:Octo_Client.OctoClient.CreateProject
+  isSpec: "True"
+  fullName: Octo_Client.OctoClient.CreateProject
+  nameWithType: OctoClient.CreateProject
+- uid: Octo_Client.OctoClient.DeleteProject(System.String)
+  name: DeleteProject(String)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_DeleteProject_System_String_
+  commentId: M:Octo_Client.OctoClient.DeleteProject(System.String)
+  fullName: Octo_Client.OctoClient.DeleteProject(System.String)
+  nameWithType: OctoClient.DeleteProject(String)
+- uid: Octo_Client.OctoClient.DeleteProject*
+  name: DeleteProject
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_DeleteProject_
+  commentId: Overload:Octo_Client.OctoClient.DeleteProject
+  isSpec: "True"
+  fullName: Octo_Client.OctoClient.DeleteProject
+  nameWithType: OctoClient.DeleteProject
+- uid: Octo_Client.OctoClient.GetAvailableProjects
+  name: GetAvailableProjects()
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_GetAvailableProjects
+  commentId: M:Octo_Client.OctoClient.GetAvailableProjects
+  fullName: Octo_Client.OctoClient.GetAvailableProjects()
+  nameWithType: OctoClient.GetAvailableProjects()
+- uid: Octo_Client.OctoClient.GetAvailableProjects*
+  name: GetAvailableProjects
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_GetAvailableProjects_
+  commentId: Overload:Octo_Client.OctoClient.GetAvailableProjects
+  isSpec: "True"
+  fullName: Octo_Client.OctoClient.GetAvailableProjects
+  nameWithType: OctoClient.GetAvailableProjects
 - uid: Octo_Client.OctoClient.GetEncryptedToken
   name: GetEncryptedToken()
   href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_GetEncryptedToken
@@ -1007,77 +1088,19 @@ references:
   commentId: F:Octo_Client.OctoClient.SessionKey
   fullName: Octo_Client.OctoClient.SessionKey
   nameWithType: OctoClient.SessionKey
-- uid: Octo_Client.ProjectManager
-  name: ProjectManager
-  href: api-client/Octo_Client.ProjectManager.html
-  commentId: T:Octo_Client.ProjectManager
-  fullName: Octo_Client.ProjectManager
-  nameWithType: ProjectManager
-- uid: Octo_Client.ProjectManager.#ctor(Octo_Client.OctoClient)
-  name: ProjectManager(OctoClient)
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager__ctor_Octo_Client_OctoClient_
-  commentId: M:Octo_Client.ProjectManager.#ctor(Octo_Client.OctoClient)
-  fullName: Octo_Client.ProjectManager.ProjectManager(Octo_Client.OctoClient)
-  nameWithType: ProjectManager.ProjectManager(OctoClient)
-- uid: Octo_Client.ProjectManager.#ctor*
-  name: ProjectManager
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager__ctor_
-  commentId: Overload:Octo_Client.ProjectManager.#ctor
+- uid: Octo_Client.OctoClient.SetProjectPermissions(System.String,System.String,Octo.UserPermissions)
+  name: SetProjectPermissions(String, String, UserPermissions)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_SetProjectPermissions_System_String_System_String_Octo_UserPermissions_
+  commentId: M:Octo_Client.OctoClient.SetProjectPermissions(System.String,System.String,Octo.UserPermissions)
+  fullName: Octo_Client.OctoClient.SetProjectPermissions(System.String, System.String, Octo.UserPermissions)
+  nameWithType: OctoClient.SetProjectPermissions(String, String, UserPermissions)
+- uid: Octo_Client.OctoClient.SetProjectPermissions*
+  name: SetProjectPermissions
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_SetProjectPermissions_
+  commentId: Overload:Octo_Client.OctoClient.SetProjectPermissions
   isSpec: "True"
-  fullName: Octo_Client.ProjectManager.ProjectManager
-  nameWithType: ProjectManager.ProjectManager
-- uid: Octo_Client.ProjectManager.CreateProject(System.String)
-  name: CreateProject(String)
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_CreateProject_System_String_
-  commentId: M:Octo_Client.ProjectManager.CreateProject(System.String)
-  fullName: Octo_Client.ProjectManager.CreateProject(System.String)
-  nameWithType: ProjectManager.CreateProject(String)
-- uid: Octo_Client.ProjectManager.CreateProject*
-  name: CreateProject
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_CreateProject_
-  commentId: Overload:Octo_Client.ProjectManager.CreateProject
-  isSpec: "True"
-  fullName: Octo_Client.ProjectManager.CreateProject
-  nameWithType: ProjectManager.CreateProject
-- uid: Octo_Client.ProjectManager.DeleteProject(System.String)
-  name: DeleteProject(String)
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_DeleteProject_System_String_
-  commentId: M:Octo_Client.ProjectManager.DeleteProject(System.String)
-  fullName: Octo_Client.ProjectManager.DeleteProject(System.String)
-  nameWithType: ProjectManager.DeleteProject(String)
-- uid: Octo_Client.ProjectManager.DeleteProject*
-  name: DeleteProject
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_DeleteProject_
-  commentId: Overload:Octo_Client.ProjectManager.DeleteProject
-  isSpec: "True"
-  fullName: Octo_Client.ProjectManager.DeleteProject
-  nameWithType: ProjectManager.DeleteProject
-- uid: Octo_Client.ProjectManager.GetAvailableProjects
-  name: GetAvailableProjects()
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_GetAvailableProjects
-  commentId: M:Octo_Client.ProjectManager.GetAvailableProjects
-  fullName: Octo_Client.ProjectManager.GetAvailableProjects()
-  nameWithType: ProjectManager.GetAvailableProjects()
-- uid: Octo_Client.ProjectManager.GetAvailableProjects*
-  name: GetAvailableProjects
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_GetAvailableProjects_
-  commentId: Overload:Octo_Client.ProjectManager.GetAvailableProjects
-  isSpec: "True"
-  fullName: Octo_Client.ProjectManager.GetAvailableProjects
-  nameWithType: ProjectManager.GetAvailableProjects
-- uid: Octo_Client.ProjectManager.SetPermissions(System.String,System.String,Octo.UserPermissions)
-  name: SetPermissions(String, String, UserPermissions)
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_SetPermissions_System_String_System_String_Octo_UserPermissions_
-  commentId: M:Octo_Client.ProjectManager.SetPermissions(System.String,System.String,Octo.UserPermissions)
-  fullName: Octo_Client.ProjectManager.SetPermissions(System.String, System.String, Octo.UserPermissions)
-  nameWithType: ProjectManager.SetPermissions(String, String, UserPermissions)
-- uid: Octo_Client.ProjectManager.SetPermissions*
-  name: SetPermissions
-  href: api-client/Octo_Client.ProjectManager.html#Octo_Client_ProjectManager_SetPermissions_
-  commentId: Overload:Octo_Client.ProjectManager.SetPermissions
-  isSpec: "True"
-  fullName: Octo_Client.ProjectManager.SetPermissions
-  nameWithType: ProjectManager.SetPermissions
+  fullName: Octo_Client.OctoClient.SetProjectPermissions
+  nameWithType: OctoClient.SetProjectPermissions
 - uid: Octo_Server
   name: Octo_Server
   href: api-server/Octo_Server.html
@@ -1108,6 +1131,12 @@ references:
   commentId: F:Octo_Server.Constants.StreamLocation
   fullName: Octo_Server.Constants.StreamLocation
   nameWithType: Constants.StreamLocation
+- uid: Octo_Server.Constants.UsersLocation
+  name: UsersLocation
+  href: api-server/Octo_Server.Constants.html#Octo_Server_Constants_UsersLocation
+  commentId: F:Octo_Server.Constants.UsersLocation
+  fullName: Octo_Server.Constants.UsersLocation
+  nameWithType: Constants.UsersLocation
 - uid: Octo_Server.Error
   name: Error
   href: api-server/Octo_Server.Error.html
@@ -1213,6 +1242,19 @@ references:
   commentId: F:Octo_Server.OctoProjects.ProjectDBLocation
   fullName: Octo_Server.OctoProjects.ProjectDBLocation
   nameWithType: OctoProjects.ProjectDBLocation
+- uid: Octo_Server.OctoProjects.ProjectExists(System.String)
+  name: ProjectExists(String)
+  href: api-server/Octo_Server.OctoProjects.html#Octo_Server_OctoProjects_ProjectExists_System_String_
+  commentId: M:Octo_Server.OctoProjects.ProjectExists(System.String)
+  fullName: Octo_Server.OctoProjects.ProjectExists(System.String)
+  nameWithType: OctoProjects.ProjectExists(String)
+- uid: Octo_Server.OctoProjects.ProjectExists*
+  name: ProjectExists
+  href: api-server/Octo_Server.OctoProjects.html#Octo_Server_OctoProjects_ProjectExists_
+  commentId: Overload:Octo_Server.OctoProjects.ProjectExists
+  isSpec: "True"
+  fullName: Octo_Server.OctoProjects.ProjectExists
+  nameWithType: OctoProjects.ProjectExists
 - uid: Octo_Server.OctoProjects.Projects
   name: Projects
   href: api-server/Octo_Server.OctoProjects.html#Octo_Server_OctoProjects_Projects
@@ -1464,6 +1506,12 @@ references:
   commentId: F:Octo_Server.Server.projectservice_endpoint
   fullName: Octo_Server.Server.projectservice_endpoint
   nameWithType: Server.projectservice_endpoint
+- uid: Octo_Server.Server.serviceBinding
+  name: serviceBinding
+  href: api-server/Octo_Server.Server.html#Octo_Server_Server_serviceBinding
+  commentId: F:Octo_Server.Server.serviceBinding
+  fullName: Octo_Server.Server.serviceBinding
+  nameWithType: Server.serviceBinding
 - uid: Octo_Server.Server.servicehost
   name: servicehost
   href: api-server/Octo_Server.Server.html#Octo_Server_Server_servicehost
@@ -1520,12 +1568,6 @@ references:
   commentId: F:Octo_Server.User.Password
   fullName: Octo_Server.User.Password
   nameWithType: User.Password
-- uid: Octo_Server.User.Permissions
-  name: Permissions
-  href: api-server/Octo_Server.User.html#Octo_Server_User_Permissions
-  commentId: F:Octo_Server.User.Permissions
-  fullName: Octo_Server.User.Permissions
-  nameWithType: User.Permissions
 - uid: Octo_Server.User.Username
   name: Username
   href: api-server/Octo_Server.User.html#Octo_Server_User_Username

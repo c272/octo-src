@@ -120,7 +120,8 @@ instance of version control (issues, chat, repository) as well as an ID and name
   <h6><strong>Assembly</strong>: Octo-Core.dll</h6>
   <h5 id="Octo_Project_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Project</code></pre>
+    <pre><code class="lang-csharp hljs">[DataContract]
+public class Project</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -168,7 +169,8 @@ instance of version control (issues, chat, repository) as well as an ID and name
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Location</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Location</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +194,8 @@ instance of version control (issues, chat, repository) as well as an ID and name
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public string Name</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -216,7 +219,8 @@ instance of version control (issues, chat, repository) as well as an ID and name
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;ProjectPermissions&gt; Permissions</code></pre>
+    <pre><code class="lang-csharp hljs">[DataMember]
+public List&lt;ProjectPermissions&gt; Permissions</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">

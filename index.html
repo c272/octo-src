@@ -95,17 +95,18 @@ Further configuration of individual projects is all done client-side. Logging in
 <p>When attempting to connect to a server, use the authentication service to connect to the address, like in the example below.</p>
 <pre><code>var myClient = new OctoClient(&quot;myepicwebsite.com&quot;, 6920);
 bool success = myClient.Login(&quot;Jimmy_Neutron&quot;, &quot;jimmyneutron123&quot;);
-</code></pre><p>you can then use the Project Manager to create and destroy projects, push and pull projects, and add or change permission for users.
+</code></pre><p>You can then use the Project Manager to create and destroy projects, push and pull projects, and add or change permission for users.
 This is done like so:</p>
 <pre><code>//Create a project.
-myClient.octoProjects.CreateProject(&quot;ProjectName&quot;);
+myClient.CreateProject(&quot;ProjectName&quot;);
 
 //Set user permissions for a project.
-myClient.octoProjects.SetUserPermissions(&quot;ProjectName&quot;, &quot;someUser&quot;, UserPermissions.FULL_PERMISSION);
+myClient.SetUserPermissions(&quot;ProjectName&quot;, &quot;someUser&quot;, UserPermissions.FULL_PERMISSION);
 
 //Delete a project.
-myClient.octoProjects.DeleteProject(&quot;ProjectName&quot;);
-</code></pre><p>You can also access the user&#39;s raw token (if required for some purpose) by using <code>myClient.GetEncryptedToken()</code>.</p>
+myClient.DeleteProject(&quot;ProjectName&quot;);
+</code></pre><p>You can also access the user&#39;s raw token (if required for some purpose) by using <code>myClient.GetEncryptedToken()</code>.
+For more information on how to use Octo, please check the &quot;Guides&quot; section in the navigation bar.</p>
 </article>
           </div>
           

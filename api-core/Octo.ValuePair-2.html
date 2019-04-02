@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Struct ProjectPermissions
+    <title>Class ValuePair&lt;T1, T2&gt;
    | Octo - Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Struct ProjectPermissions
+    <meta name="title" content="Class ValuePair&lt;T1, T2&gt;
    | Octo - Documentation ">
     <meta name="generator" content="docfx 2.41.0.0">
     
@@ -78,24 +78,27 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Octo.ProjectPermissions">
+            <article class="content wrap" id="_content" data-uid="Octo.ValuePair`2">
   
   
-  <h1 id="Octo_ProjectPermissions" data-uid="Octo.ProjectPermissions" class="text-break">Struct ProjectPermissions
+  <h1 id="Octo_ValuePair_2" data-uid="Octo.ValuePair`2" class="text-break">Class ValuePair&lt;T1, T2&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Struct to describe which users have what permissions.</p>
+  <div class="markdown level0 summary"><p>DataContract and Public version of the KeyValuePair integral class in C#.
+Built for transferring data on WCF.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ValuePair&lt;T1, T2&gt;</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <span class="xref">System.ValueType.Equals(System.Object)</span>
+      <span class="xref">System.Object.ToString()</span>
     </div>
     <div>
-      <span class="xref">System.ValueType.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.ValueType.ToString()</span>
+      <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
@@ -104,27 +107,88 @@
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
     <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
       <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Octo.html">Octo</a></h6>
   <h6><strong>Assembly</strong>: Octo-Core.dll</h6>
-  <h5 id="Octo_ProjectPermissions_syntax">Syntax</h5>
+  <h5 id="Octo_ValuePair_2_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataContract]
-public struct ProjectPermissions</code></pre>
+public class ValuePair&lt;T1, T2&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>A serializable type.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>A serializable type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Octo_ValuePair_2__ctor_" data-uid="Octo.ValuePair`2.#ctor*"></a>
+  <h4 id="Octo_ValuePair_2__ctor__0__1_" data-uid="Octo.ValuePair`2.#ctor(`0,`1)">ValuePair(T1, T2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ValuePair(T1 Key_, T2 Value_)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">Key_</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">T2</span></td>
+        <td><span class="parametername">Value_</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Octo_ProjectPermissions_PermissionLevel" data-uid="Octo.ProjectPermissions.PermissionLevel">PermissionLevel</h4>
+  <h4 id="Octo_ValuePair_2_Key" data-uid="Octo.ValuePair`2.Key">Key</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataMember]
-public UserPermissions PermissionLevel</code></pre>
+public T1 Key</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,20 +200,20 @@ public UserPermissions PermissionLevel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Octo.UserPermissions.html">UserPermissions</a></td>
+        <td><span class="xref">T1</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Octo_ProjectPermissions_User" data-uid="Octo.ProjectPermissions.User">User</h4>
+  <h4 id="Octo_ValuePair_2_Value" data-uid="Octo.ValuePair`2.Value">Value</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[DataMember]
-public string User</code></pre>
+public T2 Value</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,7 +225,7 @@ public string User</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">T2</span></td>
         <td></td>
       </tr>
     </tbody>
