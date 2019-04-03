@@ -109,8 +109,8 @@ public interface IOctoStorage</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OperationContract]
-[WebInvoke(BodyStyle = WebMessageBodyStyle.Wrapped)]
-MemoryStream Pull(PullWrapper p)</code></pre>
+[WebInvoke(UriTemplate = &quot;/Pull&quot;, BodyStyle = WebMessageBodyStyle.Wrapped)]
+byte[] Pull(PullWrapper p)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,7 +140,7 @@ MemoryStream Pull(PullWrapper p)</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.MemoryStream</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
         <td><p>A file stream containing the commmits required.</p>
 </td>
       </tr>
@@ -161,7 +161,7 @@ MemoryStream Pull(PullWrapper p)</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[OperationContract]
-[WebInvoke(BodyStyle = WebMessageBodyStyle.Wrapped)]
+[WebInvoke(UriTemplate = &quot;/Push&quot;, BodyStyle = WebMessageBodyStyle.Wrapped)]
 bool Push(PushWrapper p)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

@@ -167,19 +167,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_FolderZipManager_GetGZippedStream.md&amp;value=---%0Auid%3A%20Octo.FolderZipManager.GetGZippedStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_FolderZipManager_GetWrapper.md&amp;value=---%0Auid%3A%20Octo.FolderZipManager.GetWrapper%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/FolderZipManager.cs/#L54">View Source</a>
   </span>
-  <a id="Octo_FolderZipManager_GetGZippedStream_" data-uid="Octo.FolderZipManager.GetGZippedStream*"></a>
-  <h4 id="Octo_FolderZipManager_GetGZippedStream" data-uid="Octo.FolderZipManager.GetGZippedStream">GetGZippedStream()</h4>
-  <div class="markdown level1 summary"><p>Returns a GZipped stream of the original folder.</p>
+  <a id="Octo_FolderZipManager_GetWrapper_" data-uid="Octo.FolderZipManager.GetWrapper*"></a>
+  <h4 id="Octo_FolderZipManager_GetWrapper" data-uid="Octo.FolderZipManager.GetWrapper">GetWrapper()</h4>
+  <div class="markdown level1 summary"><p>Returns a stream of the original folder.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MemoryStream GetGZippedStream()</code></pre>
+    <pre><code class="lang-csharp hljs">public byte[] GetWrapper()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,28 +191,28 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.MemoryStream</span></td>
-        <td><p>GZipped folder stream (MemStream)</p>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>Folder stream (MemStream)</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_FolderZipManager_SaveFolderFromStream_System_IO_MemoryStream_System_String_System_String_.md&amp;value=---%0Auid%3A%20Octo.FolderZipManager.SaveFolderFromStream(System.IO.MemoryStream%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_FolderZipManager_SaveFolderFromWrapper_System_Byte___System_String_System_String_System_Boolean_.md&amp;value=---%0Auid%3A%20Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte%5B%5D%2CSystem.String%2CSystem.String%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/FolderZipManager.cs/#L39">View Source</a>
   </span>
-  <a id="Octo_FolderZipManager_SaveFolderFromStream_" data-uid="Octo.FolderZipManager.SaveFolderFromStream*"></a>
-  <h4 id="Octo_FolderZipManager_SaveFolderFromStream_System_IO_MemoryStream_System_String_System_String_" data-uid="Octo.FolderZipManager.SaveFolderFromStream(System.IO.MemoryStream,System.String,System.String)">SaveFolderFromStream(MemoryStream, String, String)</h4>
+  <a id="Octo_FolderZipManager_SaveFolderFromWrapper_" data-uid="Octo.FolderZipManager.SaveFolderFromWrapper*"></a>
+  <h4 id="Octo_FolderZipManager_SaveFolderFromWrapper_System_Byte___System_String_System_String_System_Boolean_" data-uid="Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte[],System.String,System.String,System.Boolean)">SaveFolderFromWrapper(Byte[], String, String, Boolean)</h4>
   <div class="markdown level1 summary"><p>Saves a folder from a given stream that has been processed by FZM.
 Ensure that ZipExtractPath is NOT within folderPath.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveFolderFromStream(MemoryStream s, string zipExtractPath, string folderPath)</code></pre>
+    <pre><code class="lang-csharp hljs">public static void SaveFolderFromWrapper(byte[] b, string zipExtractPath, string folderPath, bool deleteAfter = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -225,8 +225,8 @@ Ensure that ZipExtractPath is NOT within folderPath.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.IO.MemoryStream</span></td>
-        <td><span class="parametername">s</span></td>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">b</span></td>
         <td></td>
       </tr>
       <tr>
@@ -237,6 +237,11 @@ Ensure that ZipExtractPath is NOT within folderPath.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">folderPath</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deleteAfter</span></td>
         <td></td>
       </tr>
     </tbody>

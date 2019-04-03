@@ -88,19 +88,32 @@ references:
   commentId: T:Octo.Config
   fullName: Octo.Config
   nameWithType: Config
-- uid: Octo.Config.ParseConfig(System.String)
-  name: ParseConfig(String)
-  href: api-core/Octo.Config.html#Octo_Config_ParseConfig_System_String_
-  commentId: M:Octo.Config.ParseConfig(System.String)
-  fullName: Octo.Config.ParseConfig(System.String)
-  nameWithType: Config.ParseConfig(String)
-- uid: Octo.Config.ParseConfig*
-  name: ParseConfig
-  href: api-core/Octo.Config.html#Octo_Config_ParseConfig_
-  commentId: Overload:Octo.Config.ParseConfig
+- uid: Octo.Config.ParseConfigFromFile(System.String)
+  name: ParseConfigFromFile(String)
+  href: api-core/Octo.Config.html#Octo_Config_ParseConfigFromFile_System_String_
+  commentId: M:Octo.Config.ParseConfigFromFile(System.String)
+  fullName: Octo.Config.ParseConfigFromFile(System.String)
+  nameWithType: Config.ParseConfigFromFile(String)
+- uid: Octo.Config.ParseConfigFromFile*
+  name: ParseConfigFromFile
+  href: api-core/Octo.Config.html#Octo_Config_ParseConfigFromFile_
+  commentId: Overload:Octo.Config.ParseConfigFromFile
   isSpec: "True"
-  fullName: Octo.Config.ParseConfig
-  nameWithType: Config.ParseConfig
+  fullName: Octo.Config.ParseConfigFromFile
+  nameWithType: Config.ParseConfigFromFile
+- uid: Octo.Config.ParseRawConfig(System.String)
+  name: ParseRawConfig(String)
+  href: api-core/Octo.Config.html#Octo_Config_ParseRawConfig_System_String_
+  commentId: M:Octo.Config.ParseRawConfig(System.String)
+  fullName: Octo.Config.ParseRawConfig(System.String)
+  nameWithType: Config.ParseRawConfig(String)
+- uid: Octo.Config.ParseRawConfig*
+  name: ParseRawConfig
+  href: api-core/Octo.Config.html#Octo_Config_ParseRawConfig_
+  commentId: Overload:Octo.Config.ParseRawConfig
+  isSpec: "True"
+  fullName: Octo.Config.ParseRawConfig
+  nameWithType: Config.ParseRawConfig
 - uid: Octo.DiffGenerator
   name: DiffGenerator
   href: api-core/Octo.DiffGenerator.html
@@ -263,32 +276,35 @@ references:
   isSpec: "True"
   fullName: Octo.FolderZipManager.FolderZipManager
   nameWithType: FolderZipManager.FolderZipManager
-- uid: Octo.FolderZipManager.GetGZippedStream
-  name: GetGZippedStream()
-  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_GetGZippedStream
-  commentId: M:Octo.FolderZipManager.GetGZippedStream
-  fullName: Octo.FolderZipManager.GetGZippedStream()
-  nameWithType: FolderZipManager.GetGZippedStream()
-- uid: Octo.FolderZipManager.GetGZippedStream*
-  name: GetGZippedStream
-  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_GetGZippedStream_
-  commentId: Overload:Octo.FolderZipManager.GetGZippedStream
+- uid: Octo.FolderZipManager.GetWrapper
+  name: GetWrapper()
+  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_GetWrapper
+  commentId: M:Octo.FolderZipManager.GetWrapper
+  fullName: Octo.FolderZipManager.GetWrapper()
+  nameWithType: FolderZipManager.GetWrapper()
+- uid: Octo.FolderZipManager.GetWrapper*
+  name: GetWrapper
+  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_GetWrapper_
+  commentId: Overload:Octo.FolderZipManager.GetWrapper
   isSpec: "True"
-  fullName: Octo.FolderZipManager.GetGZippedStream
-  nameWithType: FolderZipManager.GetGZippedStream
-- uid: Octo.FolderZipManager.SaveFolderFromStream(System.IO.MemoryStream,System.String,System.String)
-  name: SaveFolderFromStream(MemoryStream, String, String)
-  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_SaveFolderFromStream_System_IO_MemoryStream_System_String_System_String_
-  commentId: M:Octo.FolderZipManager.SaveFolderFromStream(System.IO.MemoryStream,System.String,System.String)
-  fullName: Octo.FolderZipManager.SaveFolderFromStream(System.IO.MemoryStream, System.String, System.String)
-  nameWithType: FolderZipManager.SaveFolderFromStream(MemoryStream, String, String)
-- uid: Octo.FolderZipManager.SaveFolderFromStream*
-  name: SaveFolderFromStream
-  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_SaveFolderFromStream_
-  commentId: Overload:Octo.FolderZipManager.SaveFolderFromStream
+  fullName: Octo.FolderZipManager.GetWrapper
+  nameWithType: FolderZipManager.GetWrapper
+- uid: Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte[],System.String,System.String,System.Boolean)
+  name: SaveFolderFromWrapper(Byte[], String, String, Boolean)
+  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_SaveFolderFromWrapper_System_Byte___System_String_System_String_System_Boolean_
+  commentId: M:Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte[],System.String,System.String,System.Boolean)
+  name.vb: SaveFolderFromWrapper(Byte(), String, String, Boolean)
+  fullName: Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte[], System.String, System.String, System.Boolean)
+  fullName.vb: Octo.FolderZipManager.SaveFolderFromWrapper(System.Byte(), System.String, System.String, System.Boolean)
+  nameWithType: FolderZipManager.SaveFolderFromWrapper(Byte[], String, String, Boolean)
+  nameWithType.vb: FolderZipManager.SaveFolderFromWrapper(Byte(), String, String, Boolean)
+- uid: Octo.FolderZipManager.SaveFolderFromWrapper*
+  name: SaveFolderFromWrapper
+  href: api-core/Octo.FolderZipManager.html#Octo_FolderZipManager_SaveFolderFromWrapper_
+  commentId: Overload:Octo.FolderZipManager.SaveFolderFromWrapper
   isSpec: "True"
-  fullName: Octo.FolderZipManager.SaveFolderFromStream
-  nameWithType: FolderZipManager.SaveFolderFromStream
+  fullName: Octo.FolderZipManager.SaveFolderFromWrapper
+  nameWithType: FolderZipManager.SaveFolderFromWrapper
 - uid: Octo.IOctoAuth
   name: IOctoAuth
   href: api-core/Octo.IOctoAuth.html
@@ -598,12 +614,12 @@ references:
   commentId: T:Octo.PushWrapper
   fullName: Octo.PushWrapper
   nameWithType: PushWrapper
-- uid: Octo.PushWrapper.fileStream
-  name: fileStream
-  href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_fileStream
-  commentId: F:Octo.PushWrapper.fileStream
-  fullName: Octo.PushWrapper.fileStream
-  nameWithType: PushWrapper.fileStream
+- uid: Octo.PushWrapper.file
+  name: file
+  href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_file
+  commentId: F:Octo.PushWrapper.file
+  fullName: Octo.PushWrapper.file
+  nameWithType: PushWrapper.file
 - uid: Octo.PushWrapper.repo
   name: repo
   href: api-core/Octo.PushWrapper.html#Octo_PushWrapper_repo
@@ -622,12 +638,12 @@ references:
   commentId: T:Octo.Repository
   fullName: Octo.Repository
   nameWithType: Repository
-- uid: Octo.Repository.#ctor(System.String,System.String)
-  name: Repository(String, String)
-  href: api-core/Octo.Repository.html#Octo_Repository__ctor_System_String_System_String_
-  commentId: M:Octo.Repository.#ctor(System.String,System.String)
-  fullName: Octo.Repository.Repository(System.String, System.String)
-  nameWithType: Repository.Repository(String, String)
+- uid: Octo.Repository.#ctor(System.String)
+  name: Repository(String)
+  href: api-core/Octo.Repository.html#Octo_Repository__ctor_System_String_
+  commentId: M:Octo.Repository.#ctor(System.String)
+  fullName: Octo.Repository.Repository(System.String)
+  nameWithType: Repository.Repository(String)
 - uid: Octo.Repository.#ctor*
   name: Repository
   href: api-core/Octo.Repository.html#Octo_Repository__ctor_
@@ -796,6 +812,19 @@ references:
   isSpec: "True"
   fullName: Octo.Utils.RawByteString
   nameWithType: Utils.RawByteString
+- uid: Octo.Utils.WipeDirectory(System.String)
+  name: WipeDirectory(String)
+  href: api-core/Octo.Utils.html#Octo_Utils_WipeDirectory_System_String_
+  commentId: M:Octo.Utils.WipeDirectory(System.String)
+  fullName: Octo.Utils.WipeDirectory(System.String)
+  nameWithType: Utils.WipeDirectory(String)
+- uid: Octo.Utils.WipeDirectory*
+  name: WipeDirectory
+  href: api-core/Octo.Utils.html#Octo_Utils_WipeDirectory_
+  commentId: Overload:Octo.Utils.WipeDirectory
+  isSpec: "True"
+  fullName: Octo.Utils.WipeDirectory
+  nameWithType: Utils.WipeDirectory
 - uid: Octo.Utils.WriteLineColour(System.String,System.ConsoleColor)
   name: WriteLineColour(String, ConsoleColor)
   href: api-core/Octo.Utils.html#Octo_Utils_WriteLineColour_System_String_System_ConsoleColor_
@@ -1003,12 +1032,12 @@ references:
   commentId: F:Octo_Client.OctoClient.ClientKeys
   fullName: Octo_Client.OctoClient.ClientKeys
   nameWithType: OctoClient.ClientKeys
-- uid: Octo_Client.OctoClient.CreateProject(System.String)
-  name: CreateProject(String)
-  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_CreateProject_System_String_
-  commentId: M:Octo_Client.OctoClient.CreateProject(System.String)
-  fullName: Octo_Client.OctoClient.CreateProject(System.String)
-  nameWithType: OctoClient.CreateProject(String)
+- uid: Octo_Client.OctoClient.CreateProject(System.String,System.String)
+  name: CreateProject(String, String)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_CreateProject_System_String_System_String_
+  commentId: M:Octo_Client.OctoClient.CreateProject(System.String,System.String)
+  fullName: Octo_Client.OctoClient.CreateProject(System.String, System.String)
+  nameWithType: OctoClient.CreateProject(String, String)
 - uid: Octo_Client.OctoClient.CreateProject*
   name: CreateProject
   href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_CreateProject_
@@ -1105,6 +1134,19 @@ references:
   commentId: F:Octo_Client.OctoClient.octoStorage
   fullName: Octo_Client.OctoClient.octoStorage
   nameWithType: OctoClient.octoStorage
+- uid: Octo_Client.OctoClient.PullRepo(System.String,System.String)
+  name: PullRepo(String, String)
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_PullRepo_System_String_System_String_
+  commentId: M:Octo_Client.OctoClient.PullRepo(System.String,System.String)
+  fullName: Octo_Client.OctoClient.PullRepo(System.String, System.String)
+  nameWithType: OctoClient.PullRepo(String, String)
+- uid: Octo_Client.OctoClient.PullRepo*
+  name: PullRepo
+  href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_PullRepo_
+  commentId: Overload:Octo_Client.OctoClient.PullRepo
+  isSpec: "True"
+  fullName: Octo_Client.OctoClient.PullRepo
+  nameWithType: OctoClient.PullRepo
 - uid: Octo_Client.OctoClient.PushRepo(System.String,System.String)
   name: PushRepo(String, String)
   href: api-client/Octo_Client.OctoClient.html#Octo_Client_OctoClient_PushRepo_System_String_System_String_
