@@ -311,11 +311,11 @@ references:
   commentId: T:Octo.IOctoAuth
   fullName: Octo.IOctoAuth
   nameWithType: IOctoAuth
-- uid: Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
+- uid: Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
   name: Login(String, LockedBytes, Key)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_LockedBytes_Key_
-  commentId: M:Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
-  fullName: Octo.IOctoAuth.Login(System.String, LockedBytes, Key)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_SharpRSA_LockedBytes_SharpRSA_Key_
+  commentId: M:Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
+  fullName: Octo.IOctoAuth.Login(System.String, SharpRSA.LockedBytes, SharpRSA.Key)
   nameWithType: IOctoAuth.Login(String, LockedBytes, Key)
 - uid: Octo.IOctoAuth.Login*
   name: Login
@@ -340,11 +340,11 @@ references:
   isSpec: "True"
   fullName: Octo.IOctoAuth.LogOut
   nameWithType: IOctoAuth.LogOut
-- uid: Octo.IOctoAuth.Register(System.String,LockedBytes)
+- uid: Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
   name: Register(String, LockedBytes)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_LockedBytes_
-  commentId: M:Octo.IOctoAuth.Register(System.String,LockedBytes)
-  fullName: Octo.IOctoAuth.Register(System.String, LockedBytes)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_SharpRSA_LockedBytes_
+  commentId: M:Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
+  fullName: Octo.IOctoAuth.Register(System.String, SharpRSA.LockedBytes)
   nameWithType: IOctoAuth.Register(String, LockedBytes)
 - uid: Octo.IOctoAuth.Register*
   name: Register
