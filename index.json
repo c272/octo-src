@@ -1,4 +1,14 @@
 {
+  "articles/serverconfigflags.html": {
+    "href": "articles/serverconfigflags.html",
+    "title": "Configuration Options | Octo - Documentation",
+    "keywords": "Configuration Options For the server portion of Octo, you must have a configuration file \"_config.octo\" stored in the executing directory. Here is the full list of configuration options for that file, along with an example file below to show how they should be structured. These are left as the default value unless overwritten explicitly in the config file. Parameter Name Type Default Value server_ip string 127.0.0.1 server_port int 13000 project_location string Executing Location + \"\\projects\\\" streaming_location string Executing Location + \"\\streaming\\\" users_location string Executing Location + \"\\users\\\" Example Config File: server_ip=234.257.1.43 server_port=12930 project_location=D:\\MyProjectLocation\\ streaming_location=D:\\MyStreamingLocation\\ users_location=D:\\myUsersLoc\\"
+  },
+  "articles/index.html": {
+    "href": "articles/index.html",
+    "title": "Welcome to the example boring page! | Octo - Documentation",
+    "keywords": "Welcome to the example boring page!"
+  },
   "api-server/Octo_Server.OctoService.html": {
     "href": "api-server/Octo_Server.OctoService.html",
     "title": "Class OctoService | Octo - Documentation",
@@ -189,14 +199,9 @@
     "title": "Class CollectionDiff | Octo - Documentation",
     "keywords": "Class CollectionDiff Class that describes the difference between two collections, with utility methods. Inheritance System.Object CollectionDiff Inherited Members System.Object.ToString() System.Object.Equals(System.Object) System.Object.Equals(System.Object, System.Object) System.Object.ReferenceEquals(System.Object, System.Object) System.Object.GetHashCode() System.Object.GetType() System.Object.MemberwiseClone() Namespace : Octo Assembly : Octo-Core.dll Syntax public class CollectionDiff Constructors CollectionDiff() Declaration public CollectionDiff() Fields addedFiles Declaration public List<string> addedFiles Field Value Type Description System.Collections.Generic.List < System.String > addedFolders Declaration public List<string> addedFolders Field Value Type Description System.Collections.Generic.List < System.String > changedFiles Declaration public List<string> changedFiles Field Value Type Description System.Collections.Generic.List < System.String > removedFiles Declaration public List<string> removedFiles Field Value Type Description System.Collections.Generic.List < System.String > removedFolders Declaration public List<string> removedFolders Field Value Type Description System.Collections.Generic.List < System.String > Methods ComputeDiff(DirectoryCollection, DirectoryCollection, Boolean) Calculates the diff between two directory collections, saves results to repoDiff. Declaration public static CollectionDiff ComputeDiff(DirectoryCollection self, DirectoryCollection comparator, bool noReturn = false) Parameters Type Name Description DirectoryCollection self The old collection to compare. DirectoryCollection comparator The new collection to compare. System.Boolean noReturn Returns Type Description CollectionDiff GenerateManifest() Generates an Octo format manifest, which can be reparsed or saved to file. Declaration public string GenerateManifest() Returns Type Description System.String An octo manifest, as string."
   },
-  "articles/serverconfigflags.html": {
-    "href": "articles/serverconfigflags.html",
-    "title": "Configuration Options | Octo - Documentation",
-    "keywords": "Configuration Options For the server portion of Octo, you must have a configuration file \"_config.octo\" stored in the executing directory. Here is the full list of configuration options for that file, along with an example file below to show how they should be structured. These are left as the default value unless overwritten explicitly in the config file. Parameter Name Type Default Value server_ip string 127.0.0.1 server_port int 13000 project_location string Executing Location + \"\\projects\\\" streaming_location string Executing Location + \"\\streaming\\\" users_location string Executing Location + \"\\users\\\" Example Config File: server_ip=234.257.1.43 server_port=12930 project_location=D:\\MyProjectLocation\\ streaming_location=D:\\MyStreamingLocation\\ users_location=D:\\myUsersLoc\\"
-  },
-  "articles/index.html": {
-    "href": "articles/index.html",
-    "title": "Welcome to the example boring page! | Octo - Documentation",
-    "keywords": "Welcome to the example boring page!"
+  "articles/apilayout.html": {
+    "href": "articles/apilayout.html",
+    "title": "API Structure | Octo - Documentation",
+    "keywords": "API Structure The API in Octo is a heirarchy of inheritance from Core down to Server and Client, and so on. Here is a simple diagram to give an idea of how the project is structured."
   }
 }
