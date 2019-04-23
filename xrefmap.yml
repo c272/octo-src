@@ -311,11 +311,11 @@ references:
   commentId: T:Octo.IOctoAuth
   fullName: Octo.IOctoAuth
   nameWithType: IOctoAuth
-- uid: Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
+- uid: Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
   name: Login(String, LockedBytes, Key)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_SharpRSA_LockedBytes_SharpRSA_Key_
-  commentId: M:Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)
-  fullName: Octo.IOctoAuth.Login(System.String, SharpRSA.LockedBytes, SharpRSA.Key)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Login_System_String_LockedBytes_Key_
+  commentId: M:Octo.IOctoAuth.Login(System.String,LockedBytes,Key)
+  fullName: Octo.IOctoAuth.Login(System.String, LockedBytes, Key)
   nameWithType: IOctoAuth.Login(String, LockedBytes, Key)
 - uid: Octo.IOctoAuth.Login*
   name: Login
@@ -340,11 +340,11 @@ references:
   isSpec: "True"
   fullName: Octo.IOctoAuth.LogOut
   nameWithType: IOctoAuth.LogOut
-- uid: Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
+- uid: Octo.IOctoAuth.Register(System.String,LockedBytes)
   name: Register(String, LockedBytes)
-  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_SharpRSA_LockedBytes_
-  commentId: M:Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)
-  fullName: Octo.IOctoAuth.Register(System.String, SharpRSA.LockedBytes)
+  href: api-core/Octo.IOctoAuth.html#Octo_IOctoAuth_Register_System_String_LockedBytes_
+  commentId: M:Octo.IOctoAuth.Register(System.String,LockedBytes)
+  fullName: Octo.IOctoAuth.Register(System.String, LockedBytes)
   nameWithType: IOctoAuth.Register(String, LockedBytes)
 - uid: Octo.IOctoAuth.Register*
   name: Register
@@ -559,6 +559,19 @@ references:
   commentId: F:Octo.Project.Permissions
   fullName: Octo.Project.Permissions
   nameWithType: Project.Permissions
+- uid: Octo.Project.RollBack
+  name: RollBack()
+  href: api-core/Octo.Project.html#Octo_Project_RollBack
+  commentId: M:Octo.Project.RollBack
+  fullName: Octo.Project.RollBack()
+  nameWithType: Project.RollBack()
+- uid: Octo.Project.RollBack*
+  name: RollBack
+  href: api-core/Octo.Project.html#Octo_Project_RollBack_
+  commentId: Overload:Octo.Project.RollBack
+  isSpec: "True"
+  fullName: Octo.Project.RollBack
+  nameWithType: Project.RollBack
 - uid: Octo.Project.UserHasPermissions(System.String,Octo.UserPermissions)
   name: UserHasPermissions(String, UserPermissions)
   href: api-core/Octo.Project.html#Octo_Project_UserHasPermissions_System_String_Octo_UserPermissions_

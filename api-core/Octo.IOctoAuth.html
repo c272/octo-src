@@ -95,10 +95,15 @@ public interface IOctoAuth</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoAuth_Login_System_String_LockedBytes_Key_.md&amp;value=---%0Auid%3A%20Octo.IOctoAuth.Login(System.String%2CLockedBytes%2CKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoAuth.cs/#L28">View Source</a>
+  </span>
   <a id="Octo_IOctoAuth_Login_" data-uid="Octo.IOctoAuth.Login*"></a>
-  <h4 id="Octo_IOctoAuth_Login_System_String_SharpRSA_LockedBytes_SharpRSA_Key_" data-uid="Octo.IOctoAuth.Login(System.String,SharpRSA.LockedBytes,SharpRSA.Key)">Login(String, LockedBytes, Key)</h4>
+  <h4 id="Octo_IOctoAuth_Login_System_String_LockedBytes_Key_" data-uid="Octo.IOctoAuth.Login(System.String,LockedBytes,Key)">Login(String, LockedBytes, Key)</h4>
   <div class="markdown level1 summary"><p>Function to log the user into the server. Defined server-side.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -125,13 +130,13 @@ KeyValuePair&lt;bool, byte[]&gt; Login(string user, LockedBytes signed_pass, Key
 </td>
       </tr>
       <tr>
-        <td><span class="xref">SharpRSA.LockedBytes</span></td>
+        <td><span class="xref">LockedBytes</span></td>
         <td><span class="parametername">signed_pass</span></td>
         <td><p>The password of the user, encrypted using session key.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">SharpRSA.Key</span></td>
+        <td><span class="xref">Key</span></td>
         <td><span class="parametername">client_pub</span></td>
         <td><p>The public key of the client.</p>
 </td>
@@ -154,8 +159,13 @@ KeyValuePair&lt;bool, byte[]&gt; Login(string user, LockedBytes signed_pass, Key
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoAuth_LogOut_System_Byte___.md&amp;value=---%0Auid%3A%20Octo.IOctoAuth.LogOut(System.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoAuth.cs/#L47">View Source</a>
+  </span>
   <a id="Octo_IOctoAuth_LogOut_" data-uid="Octo.IOctoAuth.LogOut*"></a>
   <h4 id="Octo_IOctoAuth_LogOut_System_Byte___" data-uid="Octo.IOctoAuth.LogOut(System.Byte[])">LogOut(Byte[])</h4>
   <div class="markdown level1 summary"><p>Logs the user out from the server, provided they were logged in. Defined server-side.</p>
@@ -200,10 +210,15 @@ bool LogOut(byte[] token)</code></pre>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoAuth_Register_System_String_LockedBytes_.md&amp;value=---%0Auid%3A%20Octo.IOctoAuth.Register(System.String%2CLockedBytes)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoAuth.cs/#L38">View Source</a>
+  </span>
   <a id="Octo_IOctoAuth_Register_" data-uid="Octo.IOctoAuth.Register*"></a>
-  <h4 id="Octo_IOctoAuth_Register_System_String_SharpRSA_LockedBytes_" data-uid="Octo.IOctoAuth.Register(System.String,SharpRSA.LockedBytes)">Register(String, LockedBytes)</h4>
+  <h4 id="Octo_IOctoAuth_Register_System_String_LockedBytes_" data-uid="Octo.IOctoAuth.Register(System.String,LockedBytes)">Register(String, LockedBytes)</h4>
   <div class="markdown level1 summary"><p>Function to register the user for an account on the server. Defined server-side.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -230,7 +245,7 @@ string Register(string user, LockedBytes signed_pass)</code></pre>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">SharpRSA.LockedBytes</span></td>
+        <td><span class="xref">LockedBytes</span></td>
         <td><span class="parametername">signed_pass</span></td>
         <td><p>The password of the user, encrypted using session key.</p>
 </td>
@@ -260,6 +275,12 @@ string Register(string user, LockedBytes signed_pass)</code></pre>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/c272/octo/new/master/apiSpec/new?filename=Octo_IOctoAuth.md&amp;value=---%0Auid%3A%20Octo.IOctoAuth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/c272/octo/blob/master/Octo-Core/Octo-Core/OctoAuth.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
