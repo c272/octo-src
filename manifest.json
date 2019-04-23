@@ -96,17 +96,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/octo_logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/octo_logo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/octo_logo_small.png",
       "output": {
         "resource": {
@@ -620,11 +609,10 @@
         "full_build_reason_code": "ForceRebuild"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 36,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -633,10 +621,11 @@
           "total_file_count": 5,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 36,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
